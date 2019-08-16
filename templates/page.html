@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1.0" />
+        <link rel="stylesheet" href="{{ SITE_URL }}style.css">
+        <link href="{{ SITE_URL }}feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Articles de {{ SITE_TITLE }}" />
+        <title>{{ PAGE_TITLE }} – {{ SITE_TITLE }}</title>
+    </head>
+
+    <body class="page page-article">
+        <header>
+            <a href="{{ SITE_URL }}index.html">{{ SITE_TITLE }}</a>
+        </header>
+
+        <main class="container container-text">
+            <article>
+                <header>
+                    <h1>{{ PAGE_TITLE }}</h1>
+                </header>
+
+                <div>
+                    {{ PAGE_CONTENT }}
+                </div>
+            </article>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p>
+                    <a href="https://flus.io">Flus</a> est un service par
+                    abonnement de veille de l’actualité basé sur
+                    <a href="https://freshrss.org">FreshRSS</a>, un logiciel libre
+                    communautaire.
+                </p>
+
+                <p>
+                    © 2019 <a href="https://marienfressinaud.fr">Marien Fressinaud</a>
+                    –
+                    <a href="{{ SITE_URL }}abonnement.html">S’abonner au carnet</a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

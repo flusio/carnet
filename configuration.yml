@@ -1,0 +1,9 @@
+url: "https://flus.io/carnet/"
+title: "carnet de flus"
+subtitle: "où l’on apprend à vivre de logiciel libre"
+author: "Marien"
+timezone: "Europe/Paris"
+index_as_blog: true
+
+development:
+    url: "filesystem"
