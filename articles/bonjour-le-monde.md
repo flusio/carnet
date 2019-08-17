@@ -1,6 +1,7 @@
 ---
 title: Bonjour le monde !
 date: 2019-08-17 08:00
+description: Ce blog sera celui de Flus, un service de veille d’actualités permettant de suivre une large variété de sites et de blogs depuis un seul endroit.
 ---
 
 Le premier article d’un blog est souvent le plus compliqué car on ne sait jamais trop quoi y raconter. Je vais donc rester court.

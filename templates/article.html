@@ -5,6 +5,9 @@
         <meta name="viewport" content="initial-scale=1.0" />
         <link rel="stylesheet" href="{{ SITE_URL }}style.css">
         <link href="{{ SITE_URL }}feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Articles de {{ SITE_TITLE }}" />
+        {% if ARTICLE_DESCRIPTION %}
+            <meta name="description" content="{{ ARTICLE_DESCRIPTION }}" />
+        {% endif %}
         <title>{{ ARTICLE_TITLE }} – {{ SITE_TITLE }}</title>
     </head>
 
