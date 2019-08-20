@@ -257,19 +257,10 @@ a.call-to-action:hover {
 }
 
 /* Blog articles section */
-.blog-article {
-    margin-bottom: 1rem;
-}
-.blog-article-date {
-    display: inline-block;
-    width: 5rem;
-    padding-right: .5rem;
-
-    font-size: .9rem;
-    text-align: right;
+article {
+    margin-bottom: 8rem;
 }
 
-/* Articles section */
 article header {
     margin-bottom: 4rem;
 
