@@ -1,12 +1,12 @@
 ---
 title: Sortir en 6 semaines
 date: 2019-08-21 11:30
-description: Je me suis donné comme objectif de monter mon service de veille d’actualités, Flus, en l’espace de 6 semaines. Je préviens tout de suite : je ne pense pas tenir ce délais.
+description: Je me suis donné comme objectif de monter mon service de veille d’actualités, Flus, en l’espace de 6 semaines. Je préviens tout de suite : je ne pense pas tenir ce délai.
 ---
 
 Je me suis donné comme objectif de monter mon service de veille d’actualités,
 [Flus](https://flus.io), en l’espace de 6 semaines. Je préviens tout de suite :
-je ne pense pas tenir ce délais et le service n’ouvrira pas le lundi 23
+je ne pense pas tenir ce délai et le service n’ouvrira pas le lundi 23
 septembre. Cet objectif n’est pas tout à fait réaliste, mais il permet de
 commencer à se poser les bonnes questions et notamment « **De quoi ai-je
 absolument besoin pour faire tourner le service ?** »
@@ -43,7 +43,7 @@ premiers comptes soient automatiquement inscrits à ce « carnet de flus » et
 la connexion aux systèmes de paiement soit opérationnelle ; mais soyons
 réalistes : 6 semaines, c’est court.
 
-**Je ne baclerai pas pour autant l’ouverture du service et je prendrai le
+**Je ne bâclerai pas pour autant l’ouverture du service et je prendrai le
 temps qu’il faudra pour faire les choses correctement** ; 6 semaines,
 c’est court mais pas forcément réaliste pour ouvrir un service de qualité.
 6 semaines, c’est avant tout pour me donner un meilleur sens des priorités.

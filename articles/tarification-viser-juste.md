@@ -1,11 +1,11 @@
 ---
-title: Tarification : viser juste
+title: Tarification : viser juste
 date: 2019-09-10 16:45
 description: J’avais annoncé sur mon blog personnel que je souhaitais être transparent concernant le choix de la tarification pour Flus. J’ai désormais eu les regards extérieurs que je souhaitais sur mes prévisions et je peux donc arrêter les prix.
 ---
 
 J’avais [annoncé](https://marienfressinaud.fr/mon-futur-service-de-veille.html)
-sur mon blog personnel que je souhaitais être transparent concernant le choix
+sur mon blog personnel que je voulais être transparent concernant le choix
 de la tarification pour Flus. J’ai désormais eu les regards extérieurs que je
 souhaitais sur mes prévisions et je peux donc arrêter les prix :
 
@@ -17,7 +17,7 @@ Une large majorité de personnes ayant répondues à mon sondage privilégiait u
 abonnement à 1 ou 2 € par mois (plus de 50 %). J’ai longuement hésité à faire
 le choix du 2 € mais plusieurs arguments m’ont fait préférer augmenter d’un euro.
 
-## Calcul d’un objectif de chiffre d’affaire
+## Calcul d’un objectif de chiffre d’affaires
 
 Les charges, tout d’abord, ne sont pas bien élevées. Il faut compter le coût
 mensuel des serveurs, les frais des prestataires pour le paiement, les coûts de
@@ -27,10 +27,10 @@ ajouter les différentes cotisations et taxes, mais je bénéficierai d’aides
 importantes la première année et le cumul ne devrait s’élever à guère plus de
 200 € sur l’année. Je n’ai pas compté l’impôt sur le revenu dans cette
 équation : ajoutez quand même environ 1 000 €. Bien sûr tout cela est en
-fonction de mon chiffre d’affaire (<abbr>CA</abbr>) donc je pourrais avoir à
+fonction de mon chiffre d’affaires (<abbr>CA</abbr>) donc je pourrais avoir à
 débourser plus, mais il s’agira alors d’un « bon » problème.
 
-Je prévoie également deux dépenses importantes pour la première année : la
+Je prévois également deux dépenses importantes pour la première année : la
 création d’un logo et l’achat d’un ordinateur portable (2 500 € pour
 l’ensemble, c’est un peu gonflé mais pas tant).
 
@@ -44,12 +44,12 @@ J’aime bien : c’est rond, facile à retenir et ça semble atteignable.
 
 ## Calcul d’un objectif de clientèle
 
-10 000 € de <abbr>CA</abbr>, ça correspond à quoi en terme de clients ? Pour
+10 000 € de <abbr>CA</abbr>, ça correspond à quoi en termes de clients ? Pour
 mes calculs, j’ai fait deux hypothèses :
 
 1. 60 % des personnes privilégieront l’abonnement mensuel contre 40 % l’annuel
    (cette répartition est tirée des réponses à [mon questionnaire](https://marienfressinaud.fr/questionnaire-agregateurs-dactualite.html)) ;
-2. la croissance sera linéaire tout au long de l’année (là c'est **très**
+2. la croissance sera linéaire tout au long de l’année (là c’est **très**
    théorique, mais ça simplifie grandement les calculs).
 
 L’application de quelques formules de math pas forcément très compliquées mais

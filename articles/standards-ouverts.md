@@ -36,7 +36,7 @@ construire un service honnête, véritablement au service de ma clientèle.
 
 Je suis convaincu que le web s’est démocratisé essentiellement grâce à ses
 fondations ouvertes. Flus se placera dans cette lignée et fera de son mieux
-pour redorrer le blason de ces technologies (<abbr>RSS</abbr> et Atom, vous
+pour redorer le blason de ces technologies (<abbr>RSS</abbr> et Atom, vous
 avez suivi) que certains disent sur le déclin. Il me semble qu’il s’agit de
 briques fondamentales pour un web en bonne santé.
 

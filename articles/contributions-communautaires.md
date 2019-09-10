@@ -1,10 +1,10 @@
 ---
 title: Contributions communautaires
 date: 2019-08-28 17:50
-description: Flus se base(ra) sur un lociciel libre ET communautaire : FreshRSS. En me basant sur un logiciel construit par d’autres, je décide de jouer le jeu et de reverser le maximum de mes améliorations de code au pot commun.
+description: Flus se base(ra) sur un logiciel libre ET communautaire : FreshRSS. En me basant sur un logiciel construit par d’autres, je décide de jouer le jeu et de reverser le maximum de mes améliorations de code au pot commun.
 ---
 
-Flus se base(ra) sur un lociciel libre ET communautaire : [FreshRSS](https://freshrss.org/).
+Flus se base(ra) sur un logiciel libre ET communautaire : [FreshRSS](https://freshrss.org/).
 En me basant sur un logiciel construit par d’autres, je décide de jouer le jeu
 et de reverser le maximum de mes améliorations de code au pot commun. Bien sûr,
 je suis un peu biaisé puisque j’ai moi-même [initié](https://marienfressinaud.fr/freshrss-un-agregateur-simple-et-leger.html)
