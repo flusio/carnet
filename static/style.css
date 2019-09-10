@@ -82,6 +82,10 @@ p:last-child {
   margin-bottom: 0;
 }
 
+p.center {
+    text-align: center;
+}
+
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem;
