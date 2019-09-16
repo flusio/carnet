@@ -3,7 +3,7 @@ title: "carnet de flus"
 subtitle: "où l’on apprend à vivre de logiciel libre"
 author: "Marien"
 timezone: "Europe/Paris"
-index_as_blog: true
+blog_slug: "index"
 
 development:
     url: "filesystem"
