@@ -9,10 +9,10 @@ boop: ## Build the website with Boop! generator
 
 .PHONY: clean
 clean: ## Clean site files
-	rm -rf ./_site
+	rm -rf ./_site ./_cache
 
 .PHONY: publish
-publish:  ## Publish the website online (rsync)
+publish: clean  ## Publish the website online (rsync)
 	boop.py
 	rsync -P -rvzc --cvs-exclude --delete ./_site/ $(SERVER_DEST)
 
@@ -22,7 +22,7 @@ open: boop  ## Open the built site in a web browser
 
 .PHONY: tree
 tree:  ## Display the structure of the website
-	tree -I _site --dirsfirst -CA
+	tree -I '_site|_cache' --dirsfirst -CA
 
 .PHONY: help
 help:
