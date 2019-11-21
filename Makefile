@@ -15,6 +15,7 @@ clean: ## Clean site files
 publish: clean  ## Publish the website online (rsync)
 	boop.py
 	rsync -P -rvzc --cvs-exclude --delete ./_site/ $(SERVER_DEST)
+	rm -rf ./_cache
 
 .PHONY: open
 open: boop  ## Open the built site in a web browser
