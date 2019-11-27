@@ -270,3 +270,7 @@ article header {
 
     text-align: center;
 }
+
+article img {
+    border: 1px solid #d7d7db;
+}
