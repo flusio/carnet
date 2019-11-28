@@ -144,12 +144,13 @@ et coopérant ; rappeler qu’il y a des humain·es derrière chacun des outils
 nous utilisons ; replacer la confiance et les échanges au centre de nos vies
 numériques. Il s’agit là de la vision à laquelle j’ai envie de participer.
 
-Avec Flus, je propose cela : une plateforme transparente et de confiance qui
-assume sa part d’humanité tout en proposant un service « utile ». J’espère que
-les promesses faites dans cet article, ainsi que les fonctionnalités de Flus,
-saurons vous convaincre de soutenir financièrement la plateforme. L’enjeu
-principal pour moi tout au long de l’année à venir va être de prouver que mon
-modèle est viable, voire qu’il s’agit de l’un des chemins les plus agréables à
-emprunter pour celles et ceux qui voudraient vivre de logiciel libre.
+Avec Flus, je propose cela : **une plateforme d’agrégation de l’actualité,
+transparente et de confiance qui assume sa part d’humanité tout en proposant un
+service « utile ».** J’espère que les promesses faites dans cet article, ainsi
+que les fonctionnalités de Flus, saurons vous convaincre de soutenir
+financièrement la plateforme. L’enjeu principal pour moi tout au long de
+l’année à venir va être de prouver que mon modèle est viable, voire qu’il
+s’agit de l’un des chemins les plus agréables à emprunter pour celles et ceux
+qui voudraient vivre de logiciel libre.
 
 [**Je vous donne rendez-vous sur flus.io pour la suite de l’aventure !**](https://flus.io)
