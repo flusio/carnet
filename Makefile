@@ -14,7 +14,7 @@ clean: ## Clean site files
 .PHONY: publish
 publish: clean  ## Publish the website online (rsync)
 	boop.py
-	rsync -P -rvzc --cvs-exclude --delete ./_site/ $(SERVER_DEST)
+	rsync -P -rvzc --cvs-exclude --delete -e "ssh -p $(SERVER_PORT)" ./_site/ $(SERVER_DEST)
 	rm -rf ./_cache
 
 .PHONY: open
