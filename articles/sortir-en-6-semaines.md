@@ -11,7 +11,7 @@ septembre. Cet objectif n’est pas tout à fait réaliste, mais il permet de
 commencer à se poser les bonnes questions et notamment « **De quoi ai-je
 absolument besoin pour faire tourner le service ?** »
 
-J’ai commencé par poser aux propres les idées que j’avais afin de séparer
+J’ai commencé par poser au propre les idées que j’avais afin de séparer
 l’indispensable du « <em lang="en">nice to have</em> » (c’est-à-dire ce qu’il
 serait bien d’avoir). Un serveur ? Indispensable. Un logo ? Je peux m’en passer
 pour l’instant. Des conditions générales d’utilisation ? Indispensables. Un
