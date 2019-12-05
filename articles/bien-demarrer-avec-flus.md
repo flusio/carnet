@@ -108,7 +108,7 @@ amélioré un de ces jours).
 
 Si rien n’y fait, alors vous pouvez au choix :
 
-- m’écrire [sur le support](support@flus.io) en m’indiquant les sites qui ne
+- m’écrire [sur le support](mailto:support@flus.io) en m’indiquant les sites qui ne
   fonctionnent pas, j’essayerai d’investiguer de mon côté ;
 - vérifier que le flux est valide en le testant sur [le site du <abbr>W3C</abbr>](https://validator.w3.org/feed/) ;
 - si vous êtes un peu plus aventureux, ouvrir [un ticket sur le gestionnaire de
