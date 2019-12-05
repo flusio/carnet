@@ -1,7 +1,7 @@
 ---
 title: Bien démarrer avec Flus
-date: 2019-12-05 11:30
-description:
+date: 2019-12-05 18:15
+description: Alors ça y est, vous venez de vous inscrire sur Flus suite à mon dernier article ? Vous voici donc devant un écran bien vide. Vous vous demandez peut-être par où commencer pour utiliser ce nouveau service au mieux ? Cet article est là pour vous mettre le pied à l’étrier.
 ---
 
 Alors ça y est, vous venez de vous inscrire sur Flus suite [à mon dernier
