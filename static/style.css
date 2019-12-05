@@ -164,6 +164,17 @@ img {
     max-width: 100%;
 }
 
+figure {
+    margin: 0;
+    padding: 1rem;
+
+    background-color: rgba(0, 0, 0, .1);
+}
+figcaption {
+    font-size: .9rem;
+    font-style: italic;
+}
+
 /* Links section */
 a {
     color: var(--secondary-color);
