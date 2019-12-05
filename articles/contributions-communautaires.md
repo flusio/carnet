@@ -55,9 +55,9 @@ pas encore dans la version communautaire (mais attention, le code sera toujours
 [ouvert](https://github.com/flusio/FreshRSS/tree/master-flus)).
 
 La réflexion à laquelle ce questionnement me mène plutôt, c’est que l’urgence
-ne peut plus devenir une norme. En contribuant à une communauté, je m’impose
-des garde-fous qui ne possède pas les mêmes attentes et la même temporalité que
-moi. En jouant la carte de la communauté, je suis forcé de travailler
+ne peut plus devenir une norme. En contribuant à une communauté qui ne possède
+pas les mêmes attentes et la même temporalité que moi, je m’impose des
+garde-fous. En jouant la carte de la communauté, je suis forcé de travailler
 différemment de si j’avais gardé le code pour moi. Est-ce que ce sera mieux ?
 Je le crois et l’espère.
 
