@@ -4,6 +4,7 @@ subtitle: "où l’on apprend à vivre de logiciel libre"
 author: "Marien"
 timezone: "Europe/Paris"
 blog_slug: "index"
+websub_hub: "https://websub.flus.io/"
 
 development:
     url: "filesystem"
