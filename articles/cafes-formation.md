@@ -32,7 +32,7 @@ ordinateur, savoir aller sur Internet et d’avoir un intérêt pour l’actuali
 Dernière chose importante : **ces cafés-formation sont gratuits**, alors
 n’hésitez pas !
 
-<p class="center">
+<p class="paragraph--center">
     <a class="call-to-action" href="mailto:marien@flus.io?subject=Café-formation">
         Demander un café-formation
     </a>

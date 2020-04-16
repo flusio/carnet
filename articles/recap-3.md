@@ -4,11 +4,17 @@ date: 2020-03-07 12:00
 description: Je travaille par cycles de 6 semaines. À chaque fin de cycle, je publie un article récapitulatif de ce que j’ai fait durant ce temps. Ce récap’ concerne la période du 27 janvier au 8 mars.
 ---
 
-_Je travaille par cycles de 6 semaines. À chaque fin de cycle, je publie un
-article récapitulatif de ce que j’ai fait durant ce temps. Cela me permet
-d’être transparent sur le travail que j’ai réalisé._
+<div class="section__intro">
+    <p>
+        Je travaille par cycles de 6 semaines. À chaque fin de cycle, je publie un
+        article récapitulatif de ce que j’ai fait durant ce temps. Cela me permet
+        d’être transparent sur le travail que j’ai réalisé.
+    </p>
 
-_Ce récap’ concerne la période du 27 janvier au 8 mars._
+    <p>
+        Ce récap’ concerne la période du 27 janvier au 8 mars.
+    </p>
+</div>
 
 ## Du code en petite quantité pour FreshRSS
 

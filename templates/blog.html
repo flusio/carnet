@@ -3,32 +3,52 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1.0" />
+        <link rel="canonical" href="{{ SITE_URL }}">
         <link rel="stylesheet" href="{{ SITE_URL }}style.css">
         <link href="{{ SITE_URL }}feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Articles de {{ SITE_TITLE }}" />
-        <meta name="description" content="Flus est un portail de veille de l’actualité basé sur FreshRSS, un logiciel libre communautaire." />
-        <title>{{ SITE_TITLE }} – {{ SITE_SUBTITLE }}</title>
+        <title>{{ SITE_TITLE }}, {{ SITE_SUBTITLE }}</title>
+        <meta name="description" content="Le carnet de flus est un blog retraçant la vie de Flus, un média social citoyen destiné à appaiser notre relation face à l’information." />
+
+        <meta name="twitter:card" content="summary">
+        <meta property="og:title" content="{{ SITE_TITLE }}" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Le carnet de flus est un blog retraçant la vie de Flus, un média social citoyen destiné à appaiser notre relation face à l’information." />
+        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:url" content="{{ SITE_URL }}" />
+        <meta property="og:image" content="{{ SITE_URL }}logo.svg" />
     </head>
 
-    <body class="page page-index">
-        <header class="page-header">
-            <nav class="page-header-navigation">
-                <a href="https://flus.io">Accéder à Flus</a>
-                <a href="{{ SITE_URL }}abonnement.html">S’abonner</a>
+    <body class="layout layout--index">
+        <header class="layout__header">
+            <nav class="layout__navigation">
+                <a href="{{ SITE_URL_FLUS }}">
+                    Accéder à Flus
+                </a>
             </nav>
 
-            <h1><a href="{{ SITE_URL }}index.html">{{ SITE_TITLE }}</a></h1>
-            <p class="page-subtitle">{{ SITE_SUBTITLE }}</h1>
+            <h1 class="layout__title">
+                <a href="{{ SITE_URL }}index.html">
+                    carnet de <br />
+                    <img
+                        class="logo"
+                        src="{{ SITE_URL }}logo.svg"
+                        width="221"
+                        height="75"
+                        alt="Flus"
+                    />
+                </a>
+            </h1>
         </header>
 
-        <main class="container container-text">
+        <main class="layout__content">
             {% for article in ARTICLES %}
-                <article class="blog-article">
-                    <header>
-                        <h1>
+                <article class="section">
+                    <header class="header">
+                        <h1 class="header__title">
                             {{ article.title() }}
                         </h1>
 
-                        <p>
+                        <p class="header__info">
                             {{ SITE_AUTHOR }}
                             /
                             {{ article.date().strftime("le %d %B %Y") }}
@@ -44,24 +64,32 @@
                     </div>
                 </article>
             {% endfor %}
+
+            <img
+                class="illustration illustration--centered cup-of-tea"
+                alt=""
+                src="illustrations/cup-of-tea.svg"
+            />
         </main>
 
-        <footer>
-            <div class="container">
-                <p>
-                    <a href="https://flus.io">Flus</a> est un portail de veille
-                    de l’actualité basé sur <a href="https://freshrss.org">FreshRSS</a>,
-                    un logiciel libre communautaire.
-                    <a href="{{ SITE_URL }}abonnement.html">Abonnez-vous au carnet</a>
-                    ou <a href="{{ SITE_URL }}contact.html">contactez-moi</a>.
-                </p>
+        <footer class="layout__footer">
+            <p>
+                <a href="{{ SITE_URL_FLUS }}mentions-legales">mentions légales</a>
+            </p>
 
-                <p>
-                    © 2019 <a href="https://marienfressinaud.fr">Marien Fressinaud</a>
-                    –
-                    <a href="https://framagit.org/marien.fressinaud/boop">propulsé par <em lang="en">Boop!</em></a>
-                </p>
-            </div>
+            <p class="copyright">
+                Copyright © Flus 2020.<br />
+                <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>&nbsp;·&nbsp;<a href="{{ SITE_URL_FLUS }}credits">Crédits</a>&nbsp;·&nbsp;<a href="https://github.com/flusio/carnet">Code source</a>
+            </p>
+
+            <p>
+                <a href="{{ SITE_URL_FLUS }}">Flus</a> est un média social citoyen
+                destiné à appaiser notre relation face à l’information.
+                <a href="{{ SITE_URL }}abonnement.html">Abonnez-vous au carnet</a>
+                pour être tenu au courant des nouveautés, ou
+                <a href="{{ SITE_URL }}contact.html">contactez-moi</a> pour en
+                savoir plus.
+            </p>
         </footer>
     </body>
 </html>

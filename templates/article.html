@@ -3,25 +3,45 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1.0" />
+        <link rel="canonical" href="{{ SITE_URL }}{{ ARTICLE_SLUG }}.html">
         <link rel="stylesheet" href="{{ SITE_URL }}style.css">
         <link href="{{ SITE_URL }}feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Articles de {{ SITE_TITLE }}" />
-        {% if ARTICLE_DESCRIPTION %}
-            <meta name="description" content="{{ ARTICLE_DESCRIPTION }}" />
-        {% endif %}
         <title>{{ ARTICLE_TITLE }} – {{ SITE_TITLE }}</title>
+        <meta name="description" content="{{ ARTICLE_DESCRIPTION }}" />
+
+        <meta name="twitter:card" content="summary">
+        <meta property="og:title" content="{{ ARTICLE_TITLE }}" />
+        <meta property="og:type" content="article" />
+        <meta property="og:description" content="{{ ARTICLE_DESCRIPTION }}" />
+        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:url" content="{{ SITE_URL }}{{ ARTICLE_SLUG }}.html" />
+        {% if 'ARTICLE_ILLUSTRATION' in globals() %}
+            <meta property="og:image" content="{{ SITE_URL }}{{ ARTICLE_ILLUSTRATION }}" />
+        {% endif %}
     </head>
 
-    <body class="page page-article">
-        <header>
-            <a href="{{ SITE_URL }}index.html">{{ SITE_TITLE }}</a>
+    <body class="layout layout--article">
+        <header class="layout__header">
+            <nav class="layout__title">
+                <a href="{{ SITE_URL }}index.html">
+                    carnet de <br />
+                    <img
+                        class="logo"
+                        src="{{ SITE_URL }}logo.svg"
+                        width="221"
+                        height="75"
+                        alt="Flus"
+                    />
+                </a>
+            </nav>
         </header>
 
-        <main class="container container-text">
-            <article class="blog-article">
-                <header>
-                    <h1>{{ ARTICLE_TITLE }}</h1>
+        <main class="layout__content">
+            <article class="section">
+                <header class="header">
+                    <h1 class="header__title">{{ ARTICLE_TITLE }}</h1>
 
-                    <p>
+                    <p class="header__info">
                         {{ SITE_AUTHOR }} / {{ datetime.strptime(ARTICLE_DATE, "%Y-%m-%d %H:%M").strftime("le %d %B %Y") }}
                     </p>
                 </header>
@@ -30,24 +50,32 @@
                     {{ ARTICLE_CONTENT }}
                 </div>
             </article>
+
+            <p class="paragraph--center">
+                <a class="call-to-action" href="{{ SITE_URL }}index.html">
+                    retourner au carnet
+                </a>
+            </p>
         </main>
 
-        <footer>
-            <div class="container">
-                <p>
-                    <a href="https://flus.io">Flus</a> est un portail de veille
-                    de l’actualité basé sur <a href="https://freshrss.org">FreshRSS</a>,
-                    un logiciel libre communautaire.
-                    <a href="{{ SITE_URL }}abonnement.html">Abonnez-vous au carnet</a>
-                    ou <a href="{{ SITE_URL }}contact.html">contactez-moi</a>.
-                </p>
+        <footer class="layout__footer">
+            <p>
+                <a href="{{ SITE_URL_FLUS }}mentions-legales">mentions légales</a>
+            </p>
 
-                <p>
-                    © 2019 <a href="https://marienfressinaud.fr">Marien Fressinaud</a>
-                    –
-                    <a href="https://framagit.org/marien.fressinaud/boop">propulsé par <em lang="en">Boop!</em></a>
-                </p>
-            </div>
+            <p class="copyright">
+                Copyright © Flus 2020.<br />
+                <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>&nbsp;·&nbsp;<a href="{{ SITE_URL_FLUS }}credits">Crédits</a>&nbsp;·&nbsp;<a href="https://github.com/flusio/carnet">Code source</a>
+            </p>
+
+            <p>
+                <a href="{{ SITE_URL_FLUS }}">Flus</a> est un média social citoyen
+                destiné à appaiser notre relation face à l’information.
+                <a href="{{ SITE_URL }}abonnement.html">Abonnez-vous au carnet</a>
+                pour être tenu au courant des nouveautés, ou
+                <a href="{{ SITE_URL }}contact.html">contactez-moi</a> pour en
+                savoir plus.
+            </p>
         </footer>
     </body>
 </html>
