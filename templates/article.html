@@ -9,7 +9,6 @@
         <title>{{ ARTICLE_TITLE }} – {{ SITE_TITLE }}</title>
         <meta name="description" content="{{ ARTICLE_DESCRIPTION }}" />
 
-        <meta name="twitter:card" content="summary">
         <meta property="og:title" content="{{ ARTICLE_TITLE }}" />
         <meta property="og:type" content="article" />
         <meta property="og:description" content="{{ ARTICLE_DESCRIPTION }}" />
@@ -17,6 +16,9 @@
         <meta property="og:url" content="{{ SITE_URL }}{{ ARTICLE_SLUG }}.html" />
         {% if 'ARTICLE_ILLUSTRATION' in globals() %}
             <meta property="og:image" content="{{ SITE_URL }}{{ ARTICLE_ILLUSTRATION }}" />
+            <meta name="twitter:card" content="summary_large_image">
+        {% else %}
+            <meta name="twitter:card" content="summary">
         {% endif %}
     </head>
 
