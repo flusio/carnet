@@ -6,6 +6,7 @@ author: "Marien"
 timezone: "Europe/Paris"
 blog_slug: "index"
 websub_hub: "https://websub.flus.io/"
+uuid: "d836fc75-3412-5caf-91e2-2fad31343882"
 
 development:
     url: "filesystem"
