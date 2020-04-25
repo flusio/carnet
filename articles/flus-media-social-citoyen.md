@@ -85,7 +85,7 @@ interactions non sollicitées.
 **Vous pourrez également suivre des listes créées par d’autres personnes ou
 communautés, ou des sites via leur traditionnel flux <abbr>RSS</abbr>, afin
 d’être tenu·e au courant des ajouts.** Vous pourrez obtenir des suggestions de
-lecture en définisant vos propres critères pour affiner les résultats. En
+lecture en définissant vos propres critères pour affiner les résultats. En
 effet, sur Flus, il sera primordial que vous soyez en mesure de savoir pourquoi
 telle ou telle information vous est proposée.
 
