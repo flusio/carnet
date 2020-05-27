@@ -14,7 +14,7 @@ qu’elles auraient besoin d’un coup de main pour démarrer, **je propose dés
 des cafés-formation**.
 
 Le principe est simple. Vous aimeriez utiliser Flus mais ne savez pas comment
-démarrer ? Alors [contactez-moi](mailto:marien@flus.io) pour qu’on aille
+démarrer ? Alors [contactez-moi](https://flus.fr/contact) pour qu’on aille
 prendre un café (ou un thé, l’important est qu’il s’agisse d’un moment de
 détente). **Sur un temps d’une à deux heures, je vous montre et vous aide à
 bien démarrer avec Flus** : création d’un compte, suivi de sites d’actualité,

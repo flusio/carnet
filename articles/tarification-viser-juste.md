@@ -121,4 +121,4 @@ assurer la pérennité du service. J’ai le temps de voir venir d’ici là.
 
 _J’ai fait un certain nombre de raccourcis dans cet article et omis quelques
 détails de calcul. Si vous avez des questions ou des remarques, j’ai mis en
-place une page ou vous trouverez [le moyen de me contacter](contact.html)._
+place une page ou vous trouverez [le moyen de me contacter](https://flus.fr/contact)._
