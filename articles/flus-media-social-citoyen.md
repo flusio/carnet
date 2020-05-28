@@ -2,6 +2,7 @@
 title: Flus, média social citoyen
 date: 2020-04-22 10:00
 description: Il ne doit plus s’agir de rester passif face à l’information qui nous tombe dessus, mais de pouvoir réellement choisir ce qui nous intéresse et d’échanger de manière apaisée avec les personnes de notre choix. Cela m’a amené à imaginer la transformation de Flus vers un média social citoyen.
+tags: featured
 illustration: illustrations/cocoons.jpg
 ---
 

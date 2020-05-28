@@ -2,6 +2,7 @@
 title: Ouverture de Flus, un service d’agrégation de l’actualité
 date: 2019-11-28 11:30
 description: J’ai le plaisir d’annoncer aujourd’hui publiquement l’ouverture de ma plateforme d’agrégation de l’actualité, Flus. En vous y créant un compte, vous pourrez suivre la grande majorité des sites d’actualité, blogs et podcasts existants.
+tags: featured
 ---
 
 J’ai le plaisir d’annoncer aujourd’hui publiquement **l’ouverture de [ma

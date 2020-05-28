@@ -380,3 +380,30 @@ hr {
     font-style: italic;
     text-align: center;
 }
+
+.articles {
+    margin-bottom: var(--space-large);
+    padding-left: 0;
+
+    list-style: none;
+}
+
+.articles__item {
+    display: flex;
+    margin-bottom: var(--space-medium);
+}
+
+.articles__item--featured {
+    font-weight: bold;
+}
+
+.articles__date {
+    display: inline-block;
+    width: 10rem;
+    padding-right: 1rem;
+
+    flex-shrink: 0;
+
+    font-size: .9em;
+    text-align: right;
+}

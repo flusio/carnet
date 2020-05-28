@@ -2,6 +2,7 @@
 title: Cafés-formations
 date: 2020-02-12 09:45
 description: Partant du constat que plusieurs personnes m’ont dit être intéressées, mais qu’elles auraient besoin d’un coup de main pour démarrer, je propose désormais des cafés-formation.
+tags: featured
 ---
 
 Flus est un portail d’agrégation de contenu qui a pour but de vous aider à vous

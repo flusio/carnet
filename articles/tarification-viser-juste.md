@@ -2,6 +2,7 @@
 title: Tarification : viser juste
 date: 2019-09-10 16:45
 description: J’avais annoncé sur mon blog personnel que je souhaitais être transparent concernant le choix de la tarification pour Flus. J’ai désormais eu les regards extérieurs que je souhaitais sur mes prévisions et je peux donc arrêter les prix.
+tags: featured
 ---
 
 J’avais [annoncé](https://marienfressinaud.fr/mon-futur-service-de-veille.html)

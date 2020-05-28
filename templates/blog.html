@@ -41,35 +41,46 @@
         </header>
 
         <main class="layout__content">
-            {% for article in ARTICLES %}
-                <article class="section">
-                    <header class="header">
-                        <h1 class="header__title">
-                            {{ article.title() }}
-                        </h1>
+            <section class="section">
+                <p class="section__intro">
+                    Ce carnet me sert à raconter, semaine après semaine, comment
+                    je construis le service <a href="https://flus.fr">flus.fr</a>.
+                </p>
 
-                        <p class="header__info">
-                            {{ SITE_AUTHOR }}
-                            /
-                            {{ article.date().strftime("le %d %B %Y") }}
-                            /
-                            <a href="{{ article.url() }}">
-                                permalien
-                            </a>
-                        </p>
-                    </header>
+                {% for year, articles in ARTICLES_BY_YEAR %}
+                    <h2>{{ year }}</h2>
 
-                    <div>
-                        {{ article.content() }}
-                    </div>
-                </article>
-            {% endfor %}
+                    <ul class="articles">
+                        {% for article in articles %}
+                            {% if 'ARTICLE_TAGS' in article.meta and 'featured' in article.meta['ARTICLE_TAGS'] %}
+                                <li class="articles__item articles__item--featured">
+                                    <span class="articles__date">{{ article.date().strftime("%d %b") }}</span>
 
-            <img
-                class="illustration illustration--centered cup-of-tea"
-                alt=""
-                src="illustrations/cup-of-tea.svg"
-            />
+                                    <a class="articles__title" href="{{ article.url() }}">
+                                        {{ article.title() }}
+                                    </a>
+                                </li>
+                            {% else %}
+                                <li class="articles__item">
+                                    <span class="articles__date">{{ article.date().strftime("%d %b") }}</span>
+
+                                    <div class="articles__container">
+                                        <a class="articles__title" href="{{ article.url() }}">
+                                            {{ article.title() }}
+                                        </a>
+                                    </div>
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                {% endfor %}
+
+                <img
+                    class="illustration illustration--centered cup-of-tea"
+                    alt=""
+                    src="illustrations/cup-of-tea.svg"
+                />
+            </section>
         </main>
 
         <footer class="layout__footer">
