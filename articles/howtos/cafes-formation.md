@@ -14,14 +14,14 @@ qu’elles auraient besoin d’un coup de main pour démarrer, **je propose dés
 des cafés-formation**.
 
 Le principe est simple. Vous aimeriez utiliser Flus mais ne savez pas comment
-démarrer ? Alors [contactez-moi](https://flus.fr/contact) pour qu’on aille
-prendre un café (ou un thé, l’important est qu’il s’agisse d’un moment de
-détente). **Sur un temps d’une à deux heures, je vous montre et vous aide à
-bien démarrer avec Flus** : création d’un compte, suivi de sites d’actualité,
-découverte des fonctionnalités de base, etc. En fonction du temps que l’on
-prend, on pourra creuser de plus en plus loin dans les fonctionnalités. Je
-pourrai également vous présenter les travaux futurs que j’envisage pour rendre
-Flus plus grand public.
+démarrer ? Alors [contactez-moi](https://flus.fr/contact?subject=Café+formation)
+pour qu’on aille prendre un café (ou un thé, l’important est qu’il s’agisse
+d’un moment de détente). **Sur un temps d’une à deux heures, je vous montre et
+vous aide à bien démarrer avec Flus** : création d’un compte, suivi de sites
+d’actualité, découverte des fonctionnalités de base, etc. En fonction du temps
+que l’on prend, on pourra creuser de plus en plus loin dans les
+fonctionnalités. Je pourrai également vous présenter les travaux futurs que
+j’envisage pour rendre Flus plus grand public.
 
 Je réserve pour l’instant cette offre aux personnes se trouvant dans la région
 grenobloise (pas besoin d’y vivre, si vous êtes de passage ça marche aussi !)
@@ -33,7 +33,7 @@ Dernière chose importante : **ces cafés-formation sont gratuits**, alors
 n’hésitez pas !
 
 <p class="paragraph--center">
-    <a class="call-to-action" href="mailto:marien@flus.io?subject=Café-formation">
+    <a class="call-to-action" href="https://flus.fr/contact?subject=Café+formation">
         Demander un café-formation
     </a>
 </p>
