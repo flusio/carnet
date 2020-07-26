@@ -273,6 +273,11 @@ hr {
     margin: var(--space-large) var(--space-medium);
 }
 
+.illustration--bordered {
+    border: 1px solid var(--color-grey-2);
+    border-radius: .25em;
+}
+
 .illustration--centered {
     margin-left: auto;
     margin-right: auto;
