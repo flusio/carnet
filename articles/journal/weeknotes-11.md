@@ -5,6 +5,18 @@ description: Je décris chaque semaine les évènements qui ont rythmé ma semai
 illustration: images/flusio-news-adding-modal.png
 ---
 
+_**Edit:** Je me rends compte que ça fait déjà un an que je blogue la
+progression de mon activité dans ce carnet. Je me dis qu’il serait intéressant
+que le prochain article fasse le point sur cette année bien remplie pour moi.
+Ce serait aussi l’occasion de faire un <abbr>DMCQVV</abbr> (« Demandez-Moi Ce
+Que Vous Voulez », bon ça sonne mieux en anglais, « <abbr lang="en">AKA</abbr> »
+pour « <span lang="en">Ask Me Anything</span> »).
+**Si vous avez des questions que vous aimeriez me poser, vous pouvez le faire sur
+les réseaux sociaux ou [par message](https://flus.fr/contact)**, je tenterai
+d’y répondre dans l’article de la semaine prochaine !_
+
+---
+
 La reprise a été efficace cette semaine avec le début d’une large amélioration
 du système du journal. On a pris le temps de s’appeler avec [Maiwann](https://www.maiwann.net/)
 parce que je n’arrivais pas à bien concevoir le _workflow_ principal. Elle a
