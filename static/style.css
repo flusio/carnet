@@ -185,11 +185,13 @@ a:focus {
     text-align: center;
 }
 
-img {
+img,
+video {
     max-width: 100%;
 }
 
-code {
+code,
+kbd {
     padding: var(--space-small);
 
     font-size: var(--size-small);
