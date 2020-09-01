@@ -9,7 +9,7 @@ _**Edit:** Je me rends compte que ça fait déjà un an que je blogue la
 progression de mon activité dans ce carnet. Je me dis qu’il serait intéressant
 que le prochain article fasse le point sur cette année bien remplie pour moi.
 Ce serait aussi l’occasion de faire un <abbr>DMCQVV</abbr> (« Demandez-Moi Ce
-Que Vous Voulez », bon ça sonne mieux en anglais, « <abbr lang="en">AKA</abbr> »
+Que Vous Voulez », bon ça sonne mieux en anglais, « <abbr lang="en">AMA</abbr> »
 pour « <span lang="en">Ask Me Anything</span> »).
 **Si vous avez des questions que vous aimeriez me poser, vous pouvez le faire sur
 les réseaux sociaux ou [par message](https://flus.fr/contact)**, je tenterai
