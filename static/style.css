@@ -144,7 +144,6 @@ a:focus {
 
     font-family: var(--font-family-title);
     text-align: center;
-    text-transform: lowercase;
     letter-spacing: .01em;
 }
 
@@ -222,6 +221,17 @@ pre code {
     border: none;
 }
 
+blockquote {
+    margin-left: 0;
+    padding: var(--space-small) var(--space-medium);
+
+    color: var(--color-white);
+    font-style: italic;
+
+    background-color: var(--color-purple-1);
+    border-left: 2.5rem solid var(--color-purple-2);
+}
+
 hr {
     width: 33%;
     height: 0.2rem;
@@ -270,9 +280,21 @@ hr {
     }
 }
 
+figure {
+    margin: 0;
+    padding: var(--space-medium);
+
+    color: var(--color-text-secondary);
+    font-style: italic;
+}
+
 .illustration {
     display: block;
     margin: var(--space-large) var(--space-medium);
+}
+
+.illustration--figure {
+    margin: 0;
 }
 
 .illustration--bordered {
