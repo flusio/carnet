@@ -1,5 +1,5 @@
 ---
-title: Weeknotes #11 (cycle 8)
+title: Weeknotes #11
 date: 2020-08-29 09:50
 description: Je décris chaque semaine les évènements qui ont rythmé ma semaine en terme de travail.
 illustration: images/flusio-news-adding-modal.png

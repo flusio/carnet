@@ -1,5 +1,5 @@
 ---
-title: Des choix – Weeknotes #13 (cycle 8)
+title: Des choix – Weeknotes #13
 date: 2020-09-14 11:37
 description: Chaque semaine je fais face à des choix dans la conception de Flus. Cette semaine, une illustration par l’exemple.
 ---

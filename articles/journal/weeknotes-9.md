@@ -1,5 +1,5 @@
 ---
-title: Weeknotes #9 (cycle 7)
+title: Weeknotes #9
 date: 2020-07-26 18:40
 description: Semaines 1 et 2 du cycle 7. Je décris chaque semaine les évènements qui ont rythmé ma semaine en terme de travail.
 ---

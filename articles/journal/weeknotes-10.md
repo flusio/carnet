@@ -1,5 +1,5 @@
 ---
-title: Weeknotes #10 (cycle 7)
+title: Weeknotes #10
 date: 2020-08-24 11:00
 description: Je décris chaque semaine les évènements qui ont rythmé ma semaine en terme de travail.
 illustration:images/flusio-news.png
