@@ -1,5 +1,5 @@
 ---
-title: Nouvelle version et futur proche – Weeknotes #12
+title: Nouvelle version et futur proche (Weeknotes #12)
 date: 2020-09-07 11:00
 description: La semaine dernière, j’ai sorti une nouvelle version de flusio avec beaucoup de nouveautés et améliorations.
 illustration: images/flusio-news-2.png

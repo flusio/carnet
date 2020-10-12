@@ -1,5 +1,5 @@
 ---
-title: Cette semaine : rien. Enfin… – Weeknotes #14
+title: Cette semaine : rien. Enfin… (Weeknotes #14)
 date: 2020-09-21 12:30
 description: Quelques questionnements sur la gestion d’un service quand on travaille seul.
 ---

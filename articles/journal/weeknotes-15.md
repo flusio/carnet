@@ -1,5 +1,5 @@
 ---
-title: Découvrabilité et nouvelle version – Weeknotes #15
+title: Découvrabilité et nouvelle version (Weeknotes #15)
 date: 2020-09-28 17:00
 description: La semaine dernière a marqué l’arrivée de beaucoup de fonctionnalités dans Flus et d’une nouvelle version.
 illustration:images/flusio-collections-discover.png

@@ -1,5 +1,5 @@
 ---
-title: Onboarding et rétro – Weeknotes #16
+title: Onboarding et rétro (Weeknotes #16)
 date: 2020-10-05 18:00
 description: Avec l’onboarding terminé, le cœur fonctionnel de la beta est désormais prêt. Un œil également sur mes (nouvelles) méthodes de travail.
 illustration: images/flusio-onboarding-1.png
