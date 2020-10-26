@@ -291,7 +291,8 @@ figure {
 
 .illustration {
     display: block;
-    margin: var(--space-large) var(--space-medium);
+    margin-top: var(--space-large);
+    margin-bottom: var(--space-large);
 }
 
 .illustration--figure {
