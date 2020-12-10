@@ -9,6 +9,9 @@
         <title>{{ PAGE_TITLE }} – {{ SITE_TITLE }}</title>
         <meta name="description" content="{{ PAGE_DESCRIPTION }}" />
 
+        <script src="https://next.flus.io/static/stimulus.min.js" defer></script>
+        <script src="https://next.flus.io/static/popup.js" defer></script>
+
         <meta name="twitter:card" content="summary">
         <meta property="og:title" content="{{ PAGE_TITLE }}" />
         <meta property="og:type" content="website" />
@@ -20,22 +23,98 @@
 
     <body class="layout layout--page">
         <header class="layout__header">
-            <nav class="layout__title">
-                <a href="{{ SITE_URL }}index.html">
-                    carnet de <br />
+            <nav class="nav">
+                <details
+                    class="nav__popup popup only-mobile"
+                    data-controller="popup"
+                    data-action="click@window->popup#close"
+                >
+                    <summary class="popup__opener" title="Ouvrir le menu">
+                        <i class="icon icon--bars"></i>
+
+                        <span class="sr-only">
+                            Ouvrir le menu
+                        </span>
+                    </summary>
+
+                    <ul class="popup__container">
+                        <li class="popup__item popup__item--close">
+                            <button
+                                type="button"
+                                class="popup__button"
+                                data-action="popup#toggle"
+                                aria-label="Fermer"
+                                title="Fermer cette fenêtre"
+                            >
+                                <i class="icon icon--only icon--times"></i>
+                            </button>
+                        </li>
+
+                        <li class="popup__item">
+                            <a class="popup__link" href="{{ SITE_URL_FLUS }}">
+                                Accueil
+                            </a>
+                        </li>
+
+                        <li class="popup__item">
+                            <a class="popup__link" href="{{ SITE_URL_FLUS }}projet">
+                                Projet
+                            </a>
+                        </li>
+
+                        <li class="popup__item">
+                            <a class="popup__link" href="{{ SITE_URL_FLUS }}tarifs">
+                                Tarifs
+                            </a>
+                        </li>
+
+                        <li class="popup__item popup__item--active">
+                            <a class="popup__link" href="{{ SITE_URL }}index.html">
+                                Carnet
+                            </a>
+                        </li>
+                    </ul>
+                </details>
+
+                <a class="nav__link no-mobile" href="{{ SITE_URL_FLUS }}">
                     <img
-                        class="logo"
+                        class="nav__image"
                         src="{{ SITE_URL }}logo.svg"
-                        width="221"
-                        height="75"
+                        height="40"
                         alt="Flus"
-                    />
+                     />
+                </a>
+
+                <div class="nav__space"></div>
+
+                <ul class="nav__container no-mobile">
+                    <li class="nav__item ">
+                        <a class="nav__link" href="{{ SITE_URL_FLUS }}projet">
+                            Projet
+                        </a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a class="nav__link" href="{{ SITE_URL_FLUS }}tarifs">
+                            Tarifs
+                        </a>
+                    </li>
+
+                    <li class="nav__item nav__item--active">
+                        <a class="nav__link" href="{{ SITE_URL }}index.html">
+                            Carnet
+                        </a>
+                    </li>
+                </ul>
+
+                <a class="nav__link nav__link--featured" href="https://app.flus.fr/login">
+                    Se connecter
                 </a>
             </nav>
         </header>
 
         <main class="layout__content" id="contenu">
-            <article class="section">
+            <article class="section section--text">
                 <header class="header">
                     <h1 class="header__title">{{ PAGE_TITLE }}</h1>
                 </header>
@@ -54,19 +133,23 @@
 
         <footer class="layout__footer">
             <p>
+                <a class="call-to-action" href="https://app.flus.fr/registration">
+                    S’inscrire sur Flus
+                </a>
+            </p>
+
+            <p class="paragraph--center">
+                Flus, c’est également un agrégateur de flux <abbr>RSS</abbr>. Intéressé&nbsp;?<br />
+                <a href="https://flus.io">Accéder à Flus 1</a>
+            </p>
+
+            <p>
                 <a href="{{ SITE_URL_FLUS }}mentions-legales">mentions légales</a>
             </p>
 
             <p class="copyright">
-                Copyright © Flus 2020.<br />
-                <a href="https://flus.fr/contact">Contact</a>&nbsp;·&nbsp;<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>&nbsp;·&nbsp;<a href="{{ SITE_URL_FLUS }}credits">Crédits</a>&nbsp;·&nbsp;<a href="https://github.com/flusio">Code source</a>
-            </p>
-
-            <p>
-                <a href="{{ SITE_URL_FLUS }}">Flus</a> est un média social citoyen
-                destiné à apaiser notre relation face à l’information.
-                <a href="{{ SITE_URL }}abonnement.html">Abonnez-vous au carnet</a>
-                pour être tenu au courant des nouveautés.
+                Copyright © Flus 2020, <a href="https://github.com/flusio/flus.fr/blob/master/LICENSE.txt">AGPL-3.0</a><br />
+                <a href="{{ SITE_URL_FLUS }}contact">Contact</a>&nbsp;·&nbsp;<a href="{{ SITE_URL_FLUS }}credits">Crédits</a>&nbsp;·&nbsp;<a href="https://github.com/flusio">Code source</a>
             </p>
         </footer>
     </body>
