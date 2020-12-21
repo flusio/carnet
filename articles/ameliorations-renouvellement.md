@@ -1,6 +1,6 @@
 ---
 title: Améliorations dans le processus de renouvellement
-date: 2020-12-22 15:45
+date: 2020-12-21 15:45
 description: J’ai pris quelques heures la semaine dernière pour apporter des améliorations au processus de renouvellement de l’abonnement Flus.
 illustration: images/flus-account.png
 ---
