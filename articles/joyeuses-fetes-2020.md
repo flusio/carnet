@@ -1,7 +1,7 @@
 ---
 title: Joyeuses fêtes 2020
 date: 2020-12-24 10:50
-description: Merci à vous qui m’avez aidée en 2020 !
+description: Merci à vous qui m’avez aidé en 2020 !
 ---
 
 Cette année m’aura permis de concrétiser une envie, celle de développer [un
