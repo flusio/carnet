@@ -353,7 +353,7 @@ figure {
 }
 
 .screenshot__image {
-    margin: 0;
+    margin: 0 auto;
 
     border-radius: 0.75em;
 }
