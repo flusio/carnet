@@ -3,7 +3,7 @@ title: Flus 2, l’ouverture de la beta
 date: 2020-12-11 13:30
 description: Battez, tambours ! Sonnez, trompettes ! Flus 2 est là !
 tags: featured
-illustration: images/flusio-news-4.png
+illustration: images/flusio-news-4.jpg
 ---
 
 **Battez, tambours ! Sonnez, trompettes ! [Flus 2 est là !](https://flus.fr)**
@@ -19,7 +19,9 @@ stockage de liens pour organiser sa veille, couplé à un système de suggestion
 de lecture. Les fonctionnalités sociales arriveront dans un second temps, au
 cours de l’année 2021.
 
-![Capture d’écran du journal de Flus, présentant 3 articles à lire et un bouton pour recycler le journal se trouve tout en bas](images/flusio-news-4.png){.illustration .illustration--bordered .illustration--centered}
+<div class="screenshot">
+    <img class="illustration screenshot__image" src="images/flusio-news-4.jpg" alt="Capture d’écran du journal de Flus, présentant 3 articles à lire et un bouton pour recycler le journal se trouve tout en bas">
+</div>
 
 Plus spécifiquement, vous y trouverez :
 

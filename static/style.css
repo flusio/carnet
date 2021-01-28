@@ -284,11 +284,14 @@ hr {
 }
 
 figure {
-    margin: 0;
-    padding: var(--space-medium);
+    margin: var(--space-large) 0;
 
     color: var(--color-text-secondary);
     font-style: italic;
+}
+
+figcaption {
+    padding: var(--space-medium);
 }
 
 .illustration {
@@ -350,6 +353,10 @@ figure {
     background-image: url("icons/media/camera-line.svg");
     background-color: var(--color-purple-1);
     border-radius: 0.75em 0 0.75em 0;
+}
+
+.screenshot + figcaption {
+    margin-top: calc(var(--space-large) * -1);
 }
 
 .screenshot__image {
