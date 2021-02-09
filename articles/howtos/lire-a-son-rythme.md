@@ -3,6 +3,7 @@ title: Lire à son rythme grâce au journal
 date: 2021-01-28 14:37
 description: Le journal de Flus est un espace pour vous réapproprier votre temps libre. Présentations.
 illustration: images/flusio-via.png
+tags: featured
 ---
 
 Twitter, Facebook, Mastodon, [insérez ici le réseau social de votre choix]

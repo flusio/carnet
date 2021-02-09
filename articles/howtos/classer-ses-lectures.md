@@ -3,6 +3,7 @@ title: Classer ses lectures
 date: 2021-02-09 11:15
 description: Marre de ne pas retrouver les liens que vous avez partagé ? Les collections de Flus pourraient vous être utiles.
 illustration: images/flusio-collection-new.png
+tags: featured
 ---
 
 Si vous maîtrisez un sujet particulier, il est probable que vous diffusiez les

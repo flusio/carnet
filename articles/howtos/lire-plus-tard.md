@@ -3,6 +3,7 @@ title: Lire plus tard pour se décharger mentalement
 date: 2021-01-18 11:00
 description: Je vous explique deux manières possibles de placer vos liens à lire dans les signets de Flus.
 illustration: images/flusio-browser-full.png
+tags: featured
 ---
 
 Si vous êtes comme moi, il doit vous arriver régulièrement de commencer à lire
