@@ -28,6 +28,8 @@ au lieu d’être caché derrière un lien. L’information expliquant pourquoi 
 besoin de cette adresse est également affichée tout en haut de la page, rendant
 le formulaire moins surprenant.
 
+**_Edit du 02 avril 2021 : l’adresse postale est désormais optionnelle !_**
+
 La deuxième grande modification concerne l’accueil du compte de paiement. J’ai
 voulu tout revoir pour la rendre moins austère et mieux mettre en avant la
 navigation. **Elle est à mon avis plus lisible ainsi.**
