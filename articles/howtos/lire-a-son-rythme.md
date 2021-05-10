@@ -6,6 +6,10 @@ illustration: images/flusio-via.png
 tags: featured
 ---
 
+_**Mise à jour du 10 mai 2021 :** le journal évolue pour être plus simple
+d’utilisation et plus pertinent. Certaines informations de cet article ne sont
+donc plus pertinentes. Un article est prévu pour faire le point sur le sujet !_
+
 Twitter, Facebook, Mastodon, [insérez ici le réseau social de votre choix]
 fonctionnent tous sur le même principe de « <em lang="en">scroll</em>
 infini » : vous aurez beau faire défiler la page, il y aura toujours quelque
