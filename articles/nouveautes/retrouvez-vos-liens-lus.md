@@ -20,3 +20,15 @@ Pour cela, rendez-vous dans l’onglet « [Collections](https://app.flus.fr/col
 </figure>
 
 Je ne doute pas que vous trouverez cette fonctionnalité bien utile, en particulier si vous avez l’habitude de marquer machinalement vos liens comme lu. **Personnellement il m’arrive régulièrement de vouloir retrouver un article que j’ai vu passer plus tôt dans la semaine ;** j’aurai désormais la possibilité de le faire sans devoir passer par l’historique de mon navigateur 🙂
+
+_Mise à jour du 13 septembre :_ il est également possible de retirer des liens du journal sans pour autant les marquer comme lu grâce à la nouvelle option « Ne plus revoir les liens ». Cela permet de garder sa liste de liens lus plus claire et d’avoir un bouton sur lequel cliquer quand on ne souhaite pas lire un lien.
+
+<figure>
+    <div class="screenshot">
+        <img class="illustration screenshot__image" src="images/flusio-news-empty.png" alt="Capture d’écran du menu pour vider le journal avec la nouvelle option pour ne plus revoir les liens restants">
+    </div>
+
+    <figcaption>
+        Une nouvelle option fait son entrée : attention, vous ne reverrez plus ces liens !
+    </figcaption>
+</figure>
