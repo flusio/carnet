@@ -24,6 +24,10 @@
     </head>
 
     <body class="layout layout--index">
+        <a class="no-mobile accessibility-nav call-to-action" href="#contenu" tabindex="0" data-controller="skip-nav" data-action="skip-nav#skip">
+            Sauter au contenu
+        </a>
+
         <header class="layout__header">
             <nav class="nav">
                 <details
@@ -55,6 +59,12 @@
                         <li class="popup__item">
                             <a class="popup__link" href="{{ SITE_URL_FLUS }}">
                                 Accueil
+                            </a>
+                        </li>
+
+                        <li class="popup__item">
+                            <a class="popup__link" href="{{ SITE_URL_FLUS }}visite">
+                                Visite
                             </a>
                         </li>
 
@@ -91,6 +101,12 @@
 
                 <ul class="nav__container no-mobile">
                     <li class="nav__item ">
+                        <a class="nav__link" href="{{ SITE_URL_FLUS }}visite">
+                            Visite
+                        </a>
+                    </li>
+
+                    <li class="nav__item ">
                         <a class="nav__link" href="{{ SITE_URL_FLUS }}projet">
                             Projet
                         </a>
@@ -115,11 +131,12 @@
             </nav>
         </header>
 
-        <main class="layout__content">
+        <main class="layout__content" id="contenu">
             <section class="section section--text">
                 <p class="section__intro">
                     Ce carnet me sert à raconter, semaine après semaine, comment
-                    je construis le service <a href="https://flus.fr">flus.fr</a>.
+                    je construis le service <a href="https://flus.fr">flus.fr</a>.<br />
+                    <a href="{{ SITE_URL }}abonnement.html">Suivre le carnet</a>
                 </p>
 
                 {% for year, articles in ARTICLES_BY_YEAR %}

@@ -27,6 +27,10 @@
     </head>
 
     <body class="layout layout--article">
+        <a class="no-mobile accessibility-nav call-to-action" href="#contenu" tabindex="0" data-controller="skip-nav" data-action="skip-nav#skip">
+            Sauter au contenu
+        </a>
+
         <header class="layout__header">
             <nav class="nav">
                 <details
@@ -58,6 +62,12 @@
                         <li class="popup__item">
                             <a class="popup__link" href="{{ SITE_URL_FLUS }}">
                                 Accueil
+                            </a>
+                        </li>
+
+                        <li class="popup__item">
+                            <a class="popup__link" href="{{ SITE_URL_FLUS }}visite">
+                                Visite
                             </a>
                         </li>
 
@@ -94,6 +104,12 @@
 
                 <ul class="nav__container no-mobile">
                     <li class="nav__item ">
+                        <a class="nav__link" href="{{ SITE_URL_FLUS }}visite">
+                            Visite
+                        </a>
+                    </li>
+
+                    <li class="nav__item ">
                         <a class="nav__link" href="{{ SITE_URL_FLUS }}projet">
                             Projet
                         </a>
@@ -118,7 +134,7 @@
             </nav>
         </header>
 
-        <main class="layout__content">
+        <main class="layout__content" id="contenu">
             <article class="section section--text">
                 <header class="header">
                     <h1 class="header__title">{{ ARTICLE_TITLE }}</h1>

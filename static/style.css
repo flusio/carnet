@@ -133,13 +133,8 @@ a:focus {
 
     text-decoration: none;
 
-    border: .1em solid var(--color-text);
-    border-radius: 1em;
-}
-
-.call-to-action:hover,
-.call-to-action:focus {
-    border-color: inherit;
+    border: .1em solid currentColor;
+    border-radius: 1.5em;
 }
 
 .header {
@@ -681,4 +676,24 @@ figcaption {
     .only-mobile {
         display: none;
     }
+}
+
+.accessibility-nav {
+    position: absolute;
+
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+
+    width: 1px;
+    height: 1px;
+}
+
+.accessibility-nav:focus {
+    top: 0.75rem;
+    left: 2rem;
+
+    clip: auto;
+
+    width: auto;
+    height: auto;
 }
