@@ -3,6 +3,7 @@ title: À quoi servent les flux ?
 date: 2021-06-23 11:26
 description: Vous n’avez jamais compris à quoi servent les flux (RSS) ?
 illustration: images/feeds/icon.png
+tags: featured
 ---
 
 Je ne sais pas vous, mais personnellement, j’ai des amis sur Facebook, sur Twitter et sur tout un tas d’autres réseaux sociaux. Certains petits commerçants que j’apprécie se trouvent également uniquement sur Facebook, des journalistes sur Twitter et des émissions de podcasts encore ailleurs. Il me faut alors créer des comptes sur chacun des sites utilisés par les personnes que je souhaite suivre. **Bref, beaucoup de comptes pour suivre beaucoup de monde sur beaucoup de sites&nbsp;; c’est infernal&nbsp;!**

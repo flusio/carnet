@@ -2,6 +2,7 @@
 title: Déclarez vos flux !
 date: 2021-09-03 14:22
 description: Votre bonne résolution du jour : déclarer vos flux dans les en-têtes de vos sites.
+tags: featured
 ---
 
 **Ce matin, je me suis demandé à quel point les flux (<abbr>RSS</abbr>) étaient déclarés dans les en-têtes des sites Web.** Non seulement c’est très utile pour Flus, mais ça l’est aussi pour tous les agrégateurs qui savent découvrir les flux automatiquement. Comme Flus stocke, pour chaque lien, la liste des flux déclarés, je peux tirer des chiffres assez facilement. Sur la base des 1 200 000 liens stockés dans Flus :

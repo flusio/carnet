@@ -3,7 +3,6 @@ title: Des flux pour tout le monde !
 date: 2021-06-02 10:00
 description: Les flux RSS, c’est compliqué ? Et si on changeait ça ?
 illustration: images/flusio-search-3.png
-tags: featured
 ---
 
 Les flux <abbr>RSS</abbr>[^1], peut-être en avez-vous entendu parler ? Peut-être

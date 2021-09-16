@@ -3,6 +3,7 @@ title: Retrouvez vos liens lus
 date: 2021-09-09 11:10
 description: Vous ne craindrez plus de vider votre journal.
 illustration: images/flusio-read.png
+tags: featured
 ---
 
 Si vous avez déjà marqué plusieurs liens comme lu par erreur (et ce malgré la demande de confirmation 👀), cette annonce est pour vous. **Il est en effet désormais possible de retrouver toute la liste de vos liens lus dans Flus !**
