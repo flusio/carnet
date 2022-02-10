@@ -194,7 +194,7 @@ kbd {
 
     font-size: var(--size-small);
 
-    border: .25rem solid var(--color-grey-2);
+    background-color: var(--color-grey-2);
     border-radius: .5rem;
 }
 
