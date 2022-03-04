@@ -2,6 +2,7 @@
 title: Votre profil Flus
 date: 2022-02-10 18:12
 description: Les pages de profil débarquent dans Flus !
+tags: featured
 ---
 
 **Bonne nouvelle pour celles et ceux qui aiment partager leur veille : les profils publics sont désormais disponibles pour toutes et tous !** Le profil public est un moyen pratique de découvrir ce que vous partagez en un coup d’œil.

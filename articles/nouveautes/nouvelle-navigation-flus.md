@@ -3,6 +3,7 @@ title: Mieux s’y retrouver avec la nouvelle navigation Flus
 date: 2022-02-24 17:46
 description: Depuis cette après-midi, Flus dispose d’une toute nouvelle navigation.
 illustration: images/flusio-navigation.png
+tags: featured
 ---
 
 Depuis cette après-midi, Flus dispose d’une toute nouvelle navigation.
