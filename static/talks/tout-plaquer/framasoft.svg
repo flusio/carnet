@@ -1,0 +1,1851 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg:svg
+   version="1.2"
+   width="399.23956"
+   height="403.78424"
+   id="svg2"
+   sodipodi:docname="framasoft.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     id="namedview736"
+     showgrid="false"
+     inkscape:zoom="0.86"
+     inkscape:cx="47.093023"
+     inkscape:cy="172.09302"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     fit-margin-top="20"
+     fit-margin-left="20"
+     fit-margin-right="20"
+     fit-margin-bottom="20"
+     inkscape:pagecheckerboard="0" />
+  <svg:defs
+     id="defs4">
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3146-2-5"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3148-9-7"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6096-3"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6098-3" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6100-0" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6102-6"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6104-6" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6106-3" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3158-67-9"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         id="feColorMatrix3160-60-0"
+         type="saturate"
+         values="0" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3142-0-8"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3144-70-1"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6108-8"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6110-8" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6112-7" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3154-3-7"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3156-43-7"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6114-0"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6116-9" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6118-8" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3150-3-9"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3152-3-7"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6120-5"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6122-9" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6124-2" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3138-2-5"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3140-1-5"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6126-6"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6128-9" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6130-6" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6132-1"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6134-4" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6136-3" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6102-3"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6104-8" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6106-6" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6132-0"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6134-1" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6136-4" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6102-31"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6104-0" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6106-1" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6132-2"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6134-2" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6136-37" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6102-5"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6104-79" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6106-7" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6132-9"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6134-5" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6136-2" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6102-9"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6104-2" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6106-5" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6132-14"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6134-17" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6136-378" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6102-2"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6104-5" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6106-22" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6132-4"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6134-0" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6136-8" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6132-4-0"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6134-0-4" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6136-8-4" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6102-2-5"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6104-5-2" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6106-22-5" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6132-2-2"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6134-2-3" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6136-37-3" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6102-31-8"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6104-0-0" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6106-1-8" />
+    </svg:filter>
+    <svg:circle
+       cx="-276.5206"
+       cy="524.4538"
+       r="105.79087"
+       transform="scale(-1,1)"
+       id="path3344"
+       style="fill:#ff0000;fill-opacity:0;fill-rule:evenodd;stroke:#888888;stroke-width:1.19772;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6132-1-3"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6134-4-1" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6136-3-9" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3138-2-5-4"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3140-1-5-7"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6126-6-8"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6128-9-4" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6130-6-5" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3150-3-9-0"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3152-3-7-3"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6120-5-6"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6122-9-1" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6124-2-0" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3154-3-7-6"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3156-43-7-3"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6114-0-2"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6116-9-0" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6118-8-6" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3142-0-8-1"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3144-70-1-5"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6108-8-5"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6110-8-4" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6112-7-7" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6102-6-6"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6104-6-5" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6106-3-6" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3158-67-9-9"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         id="feColorMatrix3160-60-0-3"
+         type="saturate"
+         values="0" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3146-2-5-7"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3148-9-7-4"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6096-3-5"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6098-3-2" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6100-0-5" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6132-1-3-3"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6134-4-1-1" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6136-3-9-4" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3138-2-5-4-9"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3140-1-5-7-2"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6126-6-8-0"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6128-9-4-6" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6130-6-5-8" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3150-3-9-0-9"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3152-3-7-3-2"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6120-5-6-6"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6122-9-1-6" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6124-2-0-4" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3154-3-7-6-9"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3156-43-7-3-5"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6114-0-2-0"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6116-9-0-4" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6118-8-6-8" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3142-0-8-1-7"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3144-70-1-5-1"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6108-8-5-7"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6110-8-4-2" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6112-7-7-7" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6102-6-6-2"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6104-6-5-2" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6106-3-6-6" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3158-67-9-9-1"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         id="feColorMatrix3160-60-0-3-0"
+         type="saturate"
+         values="0" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3146-2-5-7-6"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3148-9-7-4-1"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6096-3-5-5"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6098-3-2-9" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6100-0-5-4" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6132-1-9"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6134-4-0" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6136-3-91" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3138-2-5-7"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3140-1-5-71"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6126-6-1"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6128-9-5" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6130-6-9" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3150-3-9-7"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3152-3-7-7"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6120-5-67"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6122-9-3" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6124-2-6" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3154-3-7-5"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3156-43-7-6"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6114-0-3"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6116-9-9" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6118-8-4" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3142-0-8-8"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3144-70-1-1"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6108-8-2"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6110-8-9" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6112-7-3" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6102-6-9"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6104-6-0" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6106-3-8" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3158-67-9-8"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         id="feColorMatrix3160-60-0-5"
+         type="saturate"
+         values="0" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3146-2-5-0"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3148-9-7-9"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6096-3-6"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6098-3-3" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6100-0-8" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6132-1-3-3-6"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6134-4-1-1-2" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6136-3-9-4-8" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3138-2-5-4-9-4"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3140-1-5-7-2-7"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6126-6-8-0-2"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6128-9-4-6-4" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6130-6-5-8-0" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3150-3-9-0-9-6"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3152-3-7-3-2-2"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6120-5-6-6-9"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6122-9-1-6-9" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6124-2-0-4-0" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3154-3-7-6-9-8"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3156-43-7-3-5-1"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6114-0-2-0-3"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6116-9-0-4-1" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6118-8-6-8-1" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3142-0-8-1-7-0"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3144-70-1-5-1-3"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6108-8-5-7-4"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6110-8-4-2-0" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6112-7-7-7-3" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6102-6-6-2-9"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6104-6-5-2-1" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6106-3-6-6-9" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3158-67-9-9-1-6"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         id="feColorMatrix3160-60-0-3-0-9"
+         type="saturate"
+         values="0" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3146-2-5-7-6-3"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3148-9-7-4-1-3"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6096-3-5-5-8"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6098-3-2-9-0" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6100-0-5-4-5" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6132-1-9-6"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6134-4-0-6" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6136-3-91-4" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3138-2-5-7-0"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3140-1-5-71-0"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6126-6-1-4"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6128-9-5-6" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6130-6-9-2" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3150-3-9-7-6"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3152-3-7-7-7"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6120-5-67-5"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6122-9-3-6" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6124-2-6-9" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3154-3-7-5-8"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3156-43-7-6-7"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6114-0-3-2"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6116-9-9-8" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6118-8-4-2" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3142-0-8-8-9"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3144-70-1-1-9"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6108-8-2-6"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6110-8-9-0" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6112-7-3-2" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6102-6-9-7"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6104-6-0-6" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6106-3-8-1" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3158-67-9-8-3"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         id="feColorMatrix3160-60-0-5-2"
+         type="saturate"
+         values="0" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3146-2-5-0-1"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3148-9-7-9-5"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6096-3-6-9"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6098-3-3-9" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6100-0-8-1" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6132-1-3-3-2"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6134-4-1-1-20" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6136-3-9-4-5" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3138-2-5-4-9-5"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3140-1-5-7-2-2"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6126-6-8-0-9"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6128-9-4-6-0" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6130-6-5-8-2" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3150-3-9-0-9-8"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3152-3-7-3-2-3"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6120-5-6-6-8"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6122-9-1-6-0" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6124-2-0-4-4" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3154-3-7-6-9-0"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3156-43-7-3-5-9"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6114-0-2-0-1"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6116-9-0-4-9" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6118-8-6-8-6" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3142-0-8-1-7-2"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3144-70-1-5-1-5"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6108-8-5-7-44"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6110-8-4-2-9" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6112-7-7-7-9" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6102-6-6-2-3"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6104-6-5-2-6" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6106-3-6-6-0" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3158-67-9-9-1-5"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         id="feColorMatrix3160-60-0-3-0-0"
+         type="saturate"
+         values="0" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3146-2-5-7-6-2"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3148-9-7-4-1-9"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6096-3-5-5-4"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6098-3-2-9-3" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6100-0-5-4-51" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6132-1-9-7"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6134-4-0-4" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6136-3-91-3" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3138-2-5-7-1"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3140-1-5-71-4"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6126-6-1-6"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6128-9-5-9" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6130-6-9-4" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3150-3-9-7-2"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3152-3-7-7-2"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6120-5-67-6"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6122-9-3-4" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6124-2-6-1" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3154-3-7-5-2"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3156-43-7-6-8"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6114-0-3-8"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6116-9-9-9" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6118-8-4-28" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3142-0-8-8-8"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3144-70-1-1-8"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6108-8-2-68"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6110-8-9-3" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6112-7-3-8" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter6102-6-9-3"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6104-6-0-3" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6106-3-8-3" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3158-67-9-8-8"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         id="feColorMatrix3160-60-0-5-0"
+         type="saturate"
+         values="0" />
+    </svg:filter>
+    <svg:filter
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter3146-2-5-0-4"
+       style="color-interpolation-filters:sRGB">
+      <svg:feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix3148-9-7-9-7"
+         type="saturate"
+         values="0" />
+      <svg:feColorMatrix
+         id="feColorMatrix6096-3-6-6"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <svg:feColorMatrix
+         in="fbSourceGraphic"
+         result="fbSourceGraphic"
+         values="1"
+         type="saturate"
+         id="feColorMatrix6098-3-3-8" />
+      <svg:feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         id="feColorMatrix6100-0-8-9" />
+    </svg:filter>
+  </svg:defs>
+  <svg:metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </svg:metadata>
+  <svg:g
+     id="g1578"
+     transform="matrix(0.67107358,0,0,0.67107358,6.6375812,12.595253)"
+     inkscape:export-xdpi="104.21291"
+     inkscape:export-ydpi="104.21291">
+    <svg:g
+       id="g1549"
+       style="fill:#725794;fill-opacity:1"
+       inkscape:export-xdpi="13.896021"
+       inkscape:export-ydpi="13.896021">
+      <svg:circle
+         id="circle1543"
+         r="55"
+         cy="180.351"
+         cx="74.912003"
+         style="fill:#725794;fill-opacity:1" />
+      <svg:circle
+         id="circle1545"
+         r="42.5"
+         cy="317.44199"
+         cx="137.603"
+         style="fill:#725794;fill-opacity:1" />
+      <svg:circle
+         id="circle1547"
+         r="31"
+         cy="434.26501"
+         cx="189.825"
+         style="fill:#725794;fill-opacity:1" />
+    </svg:g>
+    <svg:g
+       id="g1555"
+       style="fill:#dd6418;fill-opacity:1"
+       inkscape:export-xdpi="13.896021"
+       inkscape:export-ydpi="13.896021">
+      <svg:circle
+         id="circle1551"
+         r="26"
+         cy="412.85901"
+         cx="515.92499"
+         style="fill:#dd6418;fill-opacity:1" />
+      <svg:circle
+         id="circle1553"
+         r="21"
+         cy="484.311"
+         cx="499.70901"
+         style="fill:#dd6418;fill-opacity:1" />
+    </svg:g>
+    <svg:path
+       id="path1557"
+       d="m 486.17,156.255 c -5.941,1.711 -24.89,-0.889 -24.89,-0.889 5.222,3.397 8.671,12.95 8.51,19.403 -18.6,-2.401 -26.312,-8.558 -43.318,-17.64 0,0.36 12.019,13.991 23.162,22.366 21.202,15.934 40.149,35.328 52.097,53.326 5.873,8.846 7.171,9.926 7.69,6.395 1.548,-10.543 -2.554,-48.238 -20.079,-72.93 -2.494,-3.514 -2.857,-7.35 -3.171,-10.031 z"
+       inkscape:connector-curvature="0"
+       style="fill:#dd6418;fill-opacity:1"
+       inkscape:export-xdpi="13.896021"
+       inkscape:export-ydpi="13.896021" />
+    <svg:path
+       id="path1559"
+       d="m 35.955,11.041 c -5.783,-0.219 -8.888,4.882 -4.422,8.722 192.709,91.397 164.019,177.845 188.944,277.227 6.744,26.886 51.375,235.856 286.89,256.094 9.241,0.795 11.835,-9.636 2.48,-12.124 -192.2,-51.124 -238.494,-387.273 -104.203,-399.482 18.695,-1.7 24.354,6.113 38.507,10.82 14.154,4.708 36.412,6.195 43.072,4.863 12.651,-23.174 -9.79,-49.68 -28.604,-69.19 20.432,-13.114 86.16,-27.667 93.9,-30.956 4.895,-2.079 2.47,-9.784 -1.77,-10.524 C 520.676,48.284 449.123,54.162 417.042,66.395 360.624,32.312 287.117,58.898 249.762,117.078 211.722,61.858 157.767,45.061 35.955,11.042 Z m 316.29,52.216 c 28.618,0 27.826,11.965 -9.496,24.698 -44.848,14.541 -81.956,50.895 -92.616,85.365 -4.385,-6.364 16.698,-99.396 102.112,-110.063 z"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="13.896021"
+       inkscape:export-ydpi="13.896021" />
+  </svg:g>
+  <script />
+</svg:svg>
