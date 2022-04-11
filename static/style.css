@@ -115,6 +115,14 @@ body {
     background-color: var(--color-body);
 }
 
+details + details {
+    margin-top: var(--space-medium);
+}
+
+details summary {
+    cursor: pointer;
+}
+
 a {
     color: inherit;
     text-decoration: underline;
