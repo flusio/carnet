@@ -473,6 +473,10 @@ figcaption {
     background-image: url("icons/core/bars-line.svg");
 }
 
+.icon--feed::before {
+    background-image: url("icons/feed.svg");
+}
+
 .icon--times::before {
     background-image: url("icons/core/times-line.svg");
 }

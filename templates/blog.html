@@ -133,10 +133,12 @@
 
         <main class="layout__content" id="contenu">
             <section class="section section--text">
+                <header class="header">
+                    <h1 class="header__title">Carnet de Flus</h1>
+                </header>
+
                 <p class="section__intro">
-                    Ce carnet me sert à raconter, semaine après semaine, comment
-                    je construis le service <a href="https://flus.fr">flus.fr</a>.<br />
-                    <a href="{{ SITE_URL }}abonnement.html">Suivre le carnet</a>
+                    Un blog pour raconter et partager la conception de mon service en ligne.
                 </p>
 
                 {% set first_year_articles = next(ARTICLES_BY_YEAR) %}
@@ -198,6 +200,12 @@
                         </ul>
                     </details>
                 {% endfor %}
+
+                <p class="paragraph--center">
+                    <a class="call-to-action" href="{{ SITE_URL }}abonnement.html">
+                        <i class="icon icon--feed"></i> Suivre le carnet
+                    </a>
+                </p>
 
                 <img
                     class="illustration illustration--centered cup-of-tea"
