@@ -115,6 +115,11 @@ body {
     background-color: var(--color-body);
 }
 
+h1,
+h2 {
+    line-height: 1.4;
+}
+
 details + details {
     margin-top: var(--space-medium);
 }
