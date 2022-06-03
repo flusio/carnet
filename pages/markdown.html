@@ -1,0 +1,280 @@
+---
+title: Guide Markdown
+description: Un guide simple pour apprendre Markdown.
+---
+
+<p>
+    Markdown est une manière d’écrire du texte pour le Web. C’est un format
+    texte relativement simple et intuitif.
+</p>
+
+<p>
+    Ce guide vous apprendra les bases de Markdown en quelques minutes.
+</p>
+
+<p>
+    Sommaire :
+</p>
+
+<ol>
+    <li><a href="#style-du-texte">Style du texte</a></li>
+    <li><a href="#titres">Titres</a></li>
+    <li><a href="#paragraphes">Paragraphes</a></li>
+    <li><a href="#listes">Listes</a></li>
+    <li><a href="#liens">Liens</a></li>
+    <li><a href="#images">Images</a></li>
+    <li><a href="#citations">Citations</a></li>
+    <li><a href="#tableaux">Tableaux</a></li>
+    <li><a href="#code">Code</a></li>
+    <li><a href="#crédits">Crédits</a></li>
+</ol>
+
+<h2 id="style-du-texte">Style du texte</h2>
+
+<p>
+    Vous pouvez utiliser <code>_</code> ou <code>*</code> autour d’un mot pour
+    le mettre en italique. Mettez-en deux pour le mettre en gras.
+</p>
+
+<ul>
+    <li><code>_italique_</code> s’affiche ainsi : <em>italique</em></li>
+
+    <li><code>**gras**</code> s’affiche ainsi : <strong>gras</strong></li>
+
+    <li><code>**_gras-italique_**</code> s’affiche ainsi : <strong><em>gras-italique</em></strong></li>
+
+    <li><code>~~barré~~</code> s’affiche ainsi : <del>barré</del></li>
+</ul>
+
+<h2 id="titres">Titres</h2>
+
+<p>
+    Les titres se font en commençant une ligne par un <code>#</code>. Ajoutez
+    jusqu’à 6 <code>#</code> pour faire des titres plus petits (on parle aussi
+    de niveau de titre) :
+</p>
+
+<pre><code># Un grand titre
+## Un titre un peu moins grand
+### Un titre encore moins grand</code></pre>
+
+<p>
+    Vous pouvez également souligner le texte en utilisant <code>===</code> ou
+    <code>---</code> pour créer des titres.
+</p>
+
+<pre><code>Un grand titre
+=============</code></pre>
+
+<h2 id="paragraphes">Paragraphes</h2>
+
+<p>
+    Les paragraphes se forment naturellement dès que vous séparez deux lignes
+    de texte par une ligne vide.
+</p>
+
+<p>
+    Si vous souhaitez simplement revenir à la ligne (et générer un saut à la
+    ligne), il est nécessaire de terminer la ligne par deux espaces. Revenir
+    simplement à la ligne peut toutefois <em>parfois</em> suffire (non
+    recommandé).
+</p>
+
+<h2 id="listes">Listes</h2>
+
+<p>
+    Vous pouvez créer des listes en commençant une ligne avec les caractères
+    <code>-</code> ou <code>*</code> pour des listes non ordonnées, ou avec des
+    nombres pour des listes ordonnées.
+</p>
+
+<p>
+    Une liste non ordonnée :
+</p>
+
+<pre><code>- un élément
+- un autre
+  - un sous élément
+  - un autre sous élément
+- un dernier élément</code></pre>
+
+<ul>
+    <li>un élément</li>
+
+    <li>
+        un autre
+
+        <ul>
+            <li>un sous élément</li>
+            <li>un autre sous élément</li>
+        </ul>
+    </li>
+
+    <li>un dernier élément</li>
+</ul>
+
+<p>
+    Une liste ordonnée :
+</p>
+
+<pre><code>1. élément un
+2. élément deux
+3. élément trois</code></pre>
+
+<ol>
+    <li>élément un</li>
+    <li>élément deux</li>
+    <li>élément trois</li>
+</ol>
+
+<h2 id="liens">Liens</h2>
+
+<p>
+    Créez un lien en mettant le texte désiré entre crochets et le lien associé
+    entre parenthèses.
+</p>
+
+<p>
+    <code>Apprenez Markdown avec [ce guide](https://flus.fr/)</code>.
+</p>
+
+<p>s’affiche :</p>
+
+<p>
+    Apprenez Markdown avec <a href="https://flus.fr/">ce guide</a>.
+</p>
+
+<h2 id="images">Images</h2>
+
+<p>
+    Affichez une image en plaçant un texte alternatif entre crochets (qui sera
+    affiché si l’image n’apparaît pas) et son adresse entre parenthèses
+    (finissant par <code>.jpg</code>, <code>.png</code>, <code>.gif</code>,
+    etc.). Le format est très similaire aux liens, mais le tout doit être
+    précédé d’un <code>!</code> :
+</p>
+
+<pre><code>![Le logo de Flus](https://flus.fr/static/logo.svg)</code></pre>
+
+<p>
+    donne :
+</p>
+
+<img src="https://flus.fr/static/logo.svg" alt="Le logo de Flus" />
+
+<p>
+    Il est important de préciser un texte alternatif pour décrire les images :
+    c’est souvent tout ce que voient les personnes utilisant un lecteur
+    d’écran !
+</p>
+
+<h2 id="citations">Citations</h2>
+
+<p>
+    Les citations se font avec le signe <code>&gt;</code> :
+</p>
+
+<pre><code>&gt; La route est longue mais la voie est libre…</code></pre>
+
+<p>
+    s’affiche :
+</p>
+
+<blockquote>
+    <p>La route est longue mais la voie est libre…</p>
+</blockquote>
+
+<h2 id="tableaux">Tableaux</h2>
+
+<p>
+    Pour créer un tableau vous devez placer une ligne de tirets
+    (<code>-</code>) sous la ligne d’entête et séparer les colonnes avec des
+    <code>|</code>. Vous pouvez aussi préciser l’alignement en utilisant des
+    <code>:</code> :
+</p>
+
+<pre><code>| Aligné à gauche  | Centré          | Aligné à droite |
+|:-----------------|:---------------:| ---------------:|
+| Ce texte         | ce texte        | Ce texte        |
+| est aligné       | est             | est aligné      |
+| à gauche         | centré          | à droite        |</code></pre>
+
+<table>
+    <thead>
+        <tr class="header">
+            <th style="text-align: left;">Aligné à gauche</th>
+            <th style="text-align: center;">Centré</th>
+            <th style="text-align: right;">Aligné à droite</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="odd">
+            <td style="text-align: left;">Ce texte</td>
+            <td style="text-align: center;">ce texte</td>
+            <td style="text-align: right;">Ce texte</td>
+        </tr>
+
+        <tr class="even">
+            <td style="text-align: left;">est aligné</td>
+            <td style="text-align: center;">est</td>
+            <td style="text-align: right;">est aligné</td>
+        </tr>
+
+        <tr class="odd">
+            <td style="text-align: left;">à gauche</td>
+            <td style="text-align: center;">centré</td>
+            <td style="text-align: right;">à droite</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2 id="code">Code</h2>
+
+<p>
+    Placez du code dans du texte en plaçant le code entre accents graves
+    (<code>`</code>) :
+</p>
+
+<pre><code>Ceci est du `code`.</code></pre>
+
+<p>
+    donne :
+</p>
+
+<p>
+    Ceci est du <code>code</code>.
+</p>
+
+<p>
+    Créez un bloc de code en indentant chaque ligne avec quatre espaces, ou en
+    mettant trois accents graves sur la ligne au-dessus et en dessous de votre
+    code. Par exemple :
+</p>
+
+<pre><code>```
+bloc de code
+```</code></pre>
+
+<p>
+    s’affiche ainsi :
+</p>
+
+<pre><code>bloc de code</code></pre>
+
+<h2 id="crédits">Crédits</h2>
+
+<p>
+    Markdown est un langage de balisage créé par John Gruber et Aaron Swartz.
+    Son but est d’offrir une syntaxe facile à lire et écrire. Il rend ainsi la
+    création de contenu sur le Web plus accessible.
+</p>
+
+<ul>
+    <li><a href="https://daringfireball.net/projects/markdown/">Site officiel (en anglais)</a></li>
+    <li><a href="https://fr.wikipedia.org/wiki/Markdown">Page Wikipédia</a></li>
+</ul>
+
+<p>
+    Merci à Framasoft pour <a href="https://docs.framasoft.org/fr/grav/markdown.html#">sa
+       documentation</a> sur laquelle je me suis largement reposé.
+</p>

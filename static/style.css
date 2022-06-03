@@ -245,6 +245,30 @@ blockquote {
     border-left: 2.5rem solid var(--color-purple-2);
 }
 
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: var(--color-purple-3);
+}
+
+td,
+th {
+    padding: 0.25rem 0.75rem;
+
+    border: 1px solid var(--color-grey-1);
+}
+
+th {
+    background-color: var(--color-purple-1);
+
+    color: var(--color-white);
+    font-family: var(--font-family-text);
+}
+
 hr {
     width: 50%;
     height: 0.3rem;
@@ -620,7 +644,7 @@ figcaption {
 }
 
 .section--text {
-    max-width: 55ch;
+    max-width: 60ch;
     margin-left: auto;
     margin-right: auto;
     padding-left: var(--space-medium);

@@ -12,14 +12,18 @@
         <script src="{{ SITE_URL_FLUS }}static/stimulus.min.js" defer></script>
         <script src="{{ SITE_URL_FLUS }}static/popup.js" defer></script>
 
-        <meta name="twitter:card" content="summary">
         <meta property="og:title" content="{{ PAGE_TITLE }}" />
         <meta property="og:type" content="website" />
         <meta property="og:description" content="{{ PAGE_DESCRIPTION }}" />
         <meta property="og:locale" content="fr_FR" />
         <meta property="og:url" content="{{ SITE_URL }}{{ PAGE_SLUG }}.html" />
-        <meta property="og:image" content="{{ SITE_URL }}{{ PAGE_ILLUSTRATION }}" />
         <meta name="twitter:site" content="{{ SITE_TWITTER }}">
+        {% if 'PAGE_ILLUSTRATION' in globals() %}
+            <meta property="og:image" content="{{ SITE_URL }}{{ PAGE_ILLUSTRATION }}" />
+        {% else %}
+            <meta property="og:image" content="{{ SITE_URL }}card.png" />
+        {% endif %}
+        <meta name="twitter:card" content="summary">
     </head>
 
     <body class="layout layout--page">
