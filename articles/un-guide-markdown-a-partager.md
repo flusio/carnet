@@ -2,6 +2,7 @@
 title: Un guide Markdown à partager
 date: 2022-07-11 12:00
 description: Un guide à partager autour de vous.
+tags: featured
 ---
 
 Dans mon article de juin, j’ai mentionné le guide sur Markdown que j’avais réalisé pour l’occasion.

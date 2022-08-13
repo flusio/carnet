@@ -3,6 +3,7 @@ title: Publiez votre veille à plusieurs
 date: 2022-07-28 14:30
 description: Flus propose désormais des collections partagées.
 illustration: images/flusio-collection-share.png
+tags: featured
 ---
 
 Si vous utilisez un tchat au sein de votre entreprise ou de votre association, les chances sont bonnes que vous disposiez d’un canal appelé « Veille ». Ce genre de canal est utilisé pour partager des liens vers des articles et ressources intéressantes en interne. Malheureusement, ces ressources ne sortent jamais de ce canal et ne bénéficient ainsi qu’à une poignée de personnes. **Et si vous disposiez d’un endroit pour partager votre veille commune avec plus de monde ?**
