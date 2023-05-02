@@ -1,6 +1,7 @@
 ---
 title: Loquace, un agrégateur-social
 date: 2023-03-20 12:15
+update: 2023-05-02 11:05
 description: Publication de mon troisième est dernier prototype basé sur les flux Web : Loquace.
 ---
 
@@ -12,10 +13,10 @@ Ce sont les concepteur⋅ices de logiciels qui en imaginent les usages.
 Or, aujourd’hui, les agrégateurs de flux Web ont tendance à ne proposer que des variations autour du même « moule » : une colonne qui se remplit à l’infini d’articles à lire.
 
 Après [Hitchhiker](hitchhiker-generateur-de-planets-statiques.html) et [Flus Actualités](flus-actualites.html), j’ai continué d’explorer d’autres manières d’utiliser les flux Web.
-**Aujourd’hui, je vous présente [Loquace](https://loquace.yuzu.ovh/).**
+**Aujourd’hui, je vous présente Loquace.**
 
 Note importante pour commencer : contrairement à [Flus Actualités](flus-actualites.html), **Loquace ne restera pas en ligne.**
-Je le désinstallerai aux alentours **du 20 avril.**
+Je le désinstallerai aux alentours **du 20 avril** (_edit : ce qui est désormais chose faite_).
 
 ![Une capture d’écran de Loquace montrant un champ de saisie pour écrire du texte et le début d’une publication. La navigation montre qu’il existe un profil et un champ de recherche pour trouver des flux.](images/loquace.png)
 
