@@ -1,7 +1,8 @@
 ---
 title: Flus passe au prix libre
 date: 2023-07-12 12:00
-description:
+description: Payez le prix le plus juste au regard de vos propres finances et de l’utilité que vous trouvez à Flus.
+tags: featured
 ---
 
 Bien que développé sur la base d’un logiciel libre, Flus est un service de veille en ligne payant.
