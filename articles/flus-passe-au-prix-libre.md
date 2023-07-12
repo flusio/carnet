@@ -16,7 +16,7 @@ Cela vous permet de définir le prix qui vous paraît le plus juste au regard de
 
 ## « Mais c’est quoi le “juste” prix ?! »
 
-Vous vous dites peut-être qu’il n’est pas évident de définir _vous-même_ un prix correct?
+Vous vous dites peut-être qu’il n’est pas évident de définir _vous-même_ un prix correct ?
 Pas d’inquiétude, je vous propose trois tarifs « par défaut » qui vous permettront de le faire sereinement.
 
 <div class="screenshot">
