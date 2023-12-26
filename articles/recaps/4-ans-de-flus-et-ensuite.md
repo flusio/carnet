@@ -2,6 +2,7 @@
 title: 4 ans de Flus, et ensuite ?
 date: 2023-12-26 12:00
 description: Récap’ de 4 ans de Flus et de ses apprentissages collectés en cours de route.
+tags: featured
 ---
 
 C’est la période des fêtes et, avec elles, l’habituel article de fin d’année.
