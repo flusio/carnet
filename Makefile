@@ -14,7 +14,7 @@ clean: ## Clean site files
 .PHONY: publish
 publish: clean  ## Publish the website online (rsync)
 	boop.py
-	rsync -P -rvzc --cvs-exclude --delete ./_site/ $(SERVER_DEST)
+	rsync -P -rvzc --delete ./_site/ $(SERVER_DEST)
 	curl -d "hub.mode=publish&hub.topic=https://flus.fr/carnet/feeds/all.atom.xml" -X POST https://websub.flus.io/
 	rm -rf ./_cache
 
