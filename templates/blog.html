@@ -2,238 +2,382 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
+        <title>{{ SITE_TITLE }}</title>
+
         <meta name="viewport" content="initial-scale=1.0" />
+        <meta name="description" content="{{ SITE_SUBTITLE }}" />
+
         <link rel="canonical" href="{{ SITE_URL }}">
-        <link rel="stylesheet" href="{{ SITE_URL }}style.css">
-        <link href="{{ SITE_URL }}feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Articles de {{ SITE_TITLE }}" />
-        <title>{{ SITE_TITLE }}, {{ SITE_SUBTITLE }}</title>
-        <meta name="description" content="Le carnet de flus est un blog retraçant la vie de Flus, un média social citoyen destiné à apaiser notre relation face à l’information." />
+        <link rel="alternate" href="{{ SITE_URL }}feeds/all.atom.xml" type="application/atom+xml" title="Articles de {{ SITE_TITLE }}" />
 
-        <script src="{{ SITE_URL_FLUS }}static/stimulus.min.js" defer></script>
-        <script src="{{ SITE_URL_FLUS }}static/popup.js" defer></script>
-        <script defer data-domain="flus.fr" src="https://plausible.io/js/script.js"></script>
+        <link rel="stylesheet" href="{{ SITE_URL_FLUS }}static/style/main.css">
+        <script src="{{ SITE_URL_FLUS }}static/js/stimulus.min.js" defer></script>
+        <script src="{{ SITE_URL_FLUS }}static/js/main.js" defer></script>
 
-        <meta name="twitter:card" content="summary">
+        <script src="https://plausible.io/js/script.js" defer data-domain="{{ SITE_URL_FLUS }}"></script>
+
         <meta property="og:title" content="{{ SITE_TITLE }}" />
         <meta property="og:type" content="website" />
-        <meta property="og:description" content="Le carnet de flus est un blog retraçant la vie de Flus, un média social citoyen destiné à apaiser notre relation face à l’information." />
+        <meta property="og:description" content="{{ SITE_SUBTITLE }}" />
         <meta property="og:locale" content="fr_FR" />
         <meta property="og:url" content="{{ SITE_URL }}" />
         <meta property="og:image" content="{{ SITE_URL }}card.png" />
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="{{ SITE_TWITTER }}">
     </head>
 
-    <body class="layout layout--index">
-        <a class="no-mobile accessibility-nav call-to-action" href="#contenu" tabindex="0" data-controller="skip-nav" data-action="skip-nav#skip">
-            Sauter au contenu
-        </a>
+    <body>
+        <nav class="accessibility-nav" aria-label="Menu de liens d’évitement">
+            <a href="#contenu" class="button button--primary">
+                Sauter au contenu
+            </a>
+        </nav>
 
-        <header class="layout__header">
-            <nav class="nav">
-                <details
-                    class="nav__popup popup only-mobile"
-                    data-controller="popup"
-                    data-action="click@window->popup#close"
+        <div class="layout">
+            <header class="layout__header" role="banner">
+                <nav
+                    class="header__navigation"
+                    data-controller="navigation"
+                    aria-label="Menu de navigation principal"
+                    role="navigation"
                 >
-                    <summary class="popup__opener" title="Ouvrir le menu">
-                        <i class="icon icon--bars"></i>
+                    <button
+                        class="navigation__menubutton button button--ghost only-mobile"
+                        data-action="navigation#switch"
+                        data-target="navigation.button"
+                        aria-expanded="false"
+                    >
+                        <svg class="icon icon--bars" aria-hidden="true" width="36" height="36">
+                            <use xlink:href="{{ SITE_URL_FLUS }}static/icons/icons.svg#bars"/>
+                        </svg>
+                        <svg class="icon icon--times" aria-hidden="true" width="36" height="36">
+                            <use xlink:href="{{ SITE_URL_FLUS }}static/icons/icons.svg#times"/>
+                        </svg>
 
                         <span class="sr-only">
-                            Ouvrir le menu
+                            Ouvrir le menu de navigation
                         </span>
-                    </summary>
+                    </button>
 
-                    <ul class="popup__container">
-                        <li class="popup__item popup__item--close">
-                            <button
-                                type="button"
-                                class="popup__button"
-                                data-action="popup#toggle"
-                                aria-label="Fermer"
-                                title="Fermer cette fenêtre"
-                            >
-                                <i class="icon icon--only icon--times"></i>
-                            </button>
-                        </li>
-
-                        <li class="popup__item">
-                            <a class="popup__link" href="{{ SITE_URL_FLUS }}">
-                                Accueil
+                    <ul class="navigation__container">
+                        <li>
+                            <a class="navigation__link" href="{{ SITE_URL_FLUS }}fonctionnalites">
+                                Fonctionnalités
                             </a>
                         </li>
 
-                        <li class="popup__item">
-                            <a class="popup__link" href="{{ SITE_URL_FLUS }}visite">
-                                Visite
-                            </a>
-                        </li>
-
-                        <li class="popup__item">
-                            <a class="popup__link" href="{{ SITE_URL_FLUS }}projet">
-                                Projet
-                            </a>
-                        </li>
-
-                        <li class="popup__item">
-                            <a class="popup__link" href="{{ SITE_URL_FLUS }}tarifs">
+                        <li>
+                            <a class="navigation__link" href="{{ SITE_URL_FLUS }}tarifs">
                                 Tarifs
                             </a>
                         </li>
 
-                        <li class="popup__item popup__item--active">
-                            <a class="popup__link" href="{{ SITE_URL }}index.html">
-                                Carnet
+                        <li>
+                            <a class="navigation__link" href="{{ SITE_URL }}index.html" aria-current="page">
+                                Blog
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="navigation__link" href="{{ SITE_URL_FLUS }}contact">
+                                Contact
+                            </a>
+                        </li>
+
+                        <li class="only-mobile">
+                            <a class="navigation__link" href="https://app.flus.fr/login">
+                                Se connecter
+                            </a>
+                        </li>
+
+                        <li class="only-mobile">
+                            <a class="navigation__link" href="https://app.flus.fr/registration">
+                                S’inscrire
                             </a>
                         </li>
                     </ul>
-                </details>
+                </nav>
 
-                <a class="nav__link no-mobile" href="{{ SITE_URL_FLUS }}">
-                    <img
-                        class="nav__image"
-                        src="{{ SITE_URL }}logo.svg"
-                        height="40"
-                        alt="Flus"
-                     />
-                </a>
+                <div class="header__logo">
+                    <a href="{{ SITE_URL_FLUS }}">
+                        <img
+                            src="{{ SITE_URL }}logo-white.svg"
+                            height="40"
+                            alt="Flus"
+                        />
+                    </a>
+                </div>
 
-                <div class="nav__space"></div>
+                <div class="col--extend text--right no-mobile">
+                    <a class="button button--primary" href="https://app.flus.fr/registration">
+                        <svg class="icon icon--arrow-left rotate180" aria-hidden="true" width="36" height="36">
+                            <use xlink:href="{{ SITE_URL_FLUS }}static/icons/icons.svg#arrow-left"/>
+                        </svg>
+                        S’inscrire
+                    </a>
 
-                <ul class="nav__container no-mobile">
-                    <li class="nav__item ">
-                        <a class="nav__link" href="{{ SITE_URL_FLUS }}visite">
-                            Visite
+                    <a class="button button--ghost" href="https://app.flus.fr/login">
+                        Se connecter
+                    </a>
+                </div>
+            </header>
+
+            <nav class="layout__breadcrumb" aria-label="Fil d’Ariane">
+                <ul class="list--nostyle">
+                    <li class="breadcrumb__item">
+                        <a class="breadcrumb__link" href="{{ SITE_URL_FLUS }}">
+
+                            Accueil
                         </a>
                     </li>
 
-                    <li class="nav__item ">
-                        <a class="nav__link" href="{{ SITE_URL_FLUS }}projet">
-                            Projet
-                        </a>
-                    </li>
+                    <li class="breadcrumb__item">
+                        <a class="breadcrumb__link" aria-current="page" href="{{ SITE_URL }}index.html">
 
-                    <li class="nav__item ">
-                        <a class="nav__link" href="{{ SITE_URL_FLUS }}tarifs">
-                            Tarifs
-                        </a>
-                    </li>
-
-                    <li class="nav__item nav__item--active">
-                        <a class="nav__link" href="{{ SITE_URL }}index.html">
-                            Carnet
+                            Blog
                         </a>
                     </li>
                 </ul>
-
-                <a class="nav__link nav__link--featured" href="https://app.flus.fr/login">
-                    Se connecter
-                </a>
             </nav>
-        </header>
 
-        <main class="layout__content" id="contenu">
-            <section class="section section--text">
-                <header class="header">
-                    <h1 class="header__title">Carnet de Flus</h1>
-                </header>
+            <main class="layout__content" id="contenu" role="main">
+                <section class="panel panel--primary panel--header">
+                    <div class="wrapper wrapper--larger wrapper--center cols cols--gap-larger">
+                        <div class="col--size5 wrapper wrapper--text flow flow--large">
+                            <h1>
+                                {{ SITE_TITLE }}
+                            </h1>
 
-                <p class="section__intro">
-                    Un blog pour raconter et partager la conception de mon service en ligne.
-                </p>
+                            <p>
+                                {{ SITE_SUBTITLE }}
+                            </p>
 
-                {% set first_year_articles = next(ARTICLES_BY_YEAR) %}
-
-                <h2>{{ first_year_articles[0] }}</h2>
-
-                <ul class="articles">
-                    {% for article in first_year_articles[1] %}
-                        {% if 'ARTICLE_TAGS' in article.meta and 'featured' in article.meta['ARTICLE_TAGS'] %}
-                            <li class="articles__item articles__item--featured">
-                                <span class="articles__date">{{ article.date().strftime("%d %b") }}</span>
-
-                                <a class="articles__title" href="{{ article.url() }}">
-                                    {{ article.title() }}
+                            <p class="cols cols--gap">
+                                <a class="button button--primary" href="#liste">
+                                    <svg class="icon icon--arrow-left rotate180" aria-hidden="true" width="36" height="36">
+                                        <use xlink:href="{{ SITE_URL_FLUS }}static/icons/icons.svg#arrow-left"/>
+                                    </svg>
+                                    Parcourir les articles
                                 </a>
-                            </li>
-                        {% else %}
-                            <li class="articles__item">
-                                <span class="articles__date">{{ article.date().strftime("%d %b") }}</span>
 
-                                <div class="articles__container">
-                                    <a class="articles__title" href="{{ article.url() }}">
-                                        {{ article.title() }}
-                                    </a>
-                                </div>
-                            </li>
-                        {% endif %}
-                    {% endfor %}
-                </ul>
+                                <a class="button button--ghost" href="{{ SITE_URL }}abonnement.html">
+                                    <svg class="icon icon--feed" aria-hidden="true" width="36" height="36">
+                                        <use xlink:href="{{ SITE_URL_FLUS }}static/icons/icons.svg#feed"/>
+                                    </svg>
+                                    Suivre le blog
+                                </a>
+                            </p>
+                        </div>
 
-                <h2>Archives</h2>
+                        <div class="col--size6 text--right">
+                            <img
+                                class="panel--header__illustration"
+                                alt=""
+                                src="{{ SITE_URL }}illustrations/online-articles.svg"
+                            />
+                        </div>
+                    </div>
+                </section>
 
-                {% for year, articles in ARTICLES_BY_YEAR %}
-                    <details>
-                        <summary>{{ year }}</summary>
+                <section class="panel" id="liste">
+                    {% set first_year_articles = next(ARTICLES_BY_YEAR) %}
 
-                        <ul class="articles">
-                            {% for article in articles %}
-                                {% if 'ARTICLE_TAGS' in article.meta and 'featured' in article.meta['ARTICLE_TAGS'] %}
-                                    <li class="articles__item articles__item--featured">
-                                        <span class="articles__date">{{ article.date().strftime("%d %b") }}</span>
+                    <div class="wrapper wrapper--large wrapper--center flow flow--larger">
+                        <h2 class="text--center">
+                            Actualités de l’année {{ first_year_articles[0] }}
+                        </h2>
 
-                                        <a class="articles__title" href="{{ article.url() }}">
+                        <ul class="grid list--nostyle">
+                            {% for article in first_year_articles[1] %}
+                                {% set is_featured = 'ARTICLE_TAGS' in article.meta and 'featured' in article.meta['ARTICLE_TAGS'] %}
+
+                                <li class="card {% if is_featured %}card--featured{% endif %} flow flow--large">
+                                    <div class="card__body flow">
+                                        <h3 class="text--bold text--gable">
                                             {{ article.title() }}
-                                        </a>
-                                    </li>
-                                {% else %}
-                                    <li class="articles__item">
-                                        <span class="articles__date">{{ article.date().strftime("%d %b") }}</span>
+                                        </h3>
 
-                                        <div class="articles__container">
-                                            <a class="articles__title" href="{{ article.url() }}">
-                                                {{ article.title() }}
-                                            </a>
-                                        </div>
-                                    </li>
-                                {% endif %}
+                                        <p class="text--bold text--gable">
+                                            {{ article.date().strftime("%d %b %Y") }}
+                                        </p>
+
+                                        {% if is_featured %}
+                                            <p class="sr-only">
+                                                Article mis en avant
+                                            </p>
+                                        {% endif %}
+
+                                        <p>
+                                            {{ article.meta['ARTICLE_DESCRIPTION'] }}
+                                        </p>
+                                    </div>
+
+                                    <a class="button button--primary card__link" href="{{ article.url() }}">
+                                        <svg class="icon icon--arrow-left rotate180" aria-hidden="true" width="36" height="36">
+                                            <use xlink:href="{{ SITE_URL_FLUS }}static/icons/icons.svg#arrow-left"/>
+                                        </svg>
+
+                                        Lire l’article
+
+                                        <span class="sr-only">
+                                            «&nbsp;{{ article.title() }}&nbsp;»
+                                        </span>
+                                    </a>
+                                </li>
                             {% endfor %}
                         </ul>
-                    </details>
-                {% endfor %}
+                    </div>
+                </section>
 
-                <p class="paragraph--center">
-                    <a class="call-to-action" href="{{ SITE_URL }}abonnement.html">
-                        <i class="icon icon--feed"></i> Suivre le carnet
-                    </a>
-                </p>
+                <section class="panel" id="liste">
+                    <div class="wrapper wrapper--large wrapper--center flow flow--larger">
+                        <h2 class="text--center">
+                            Archives des publications
+                        </h2>
 
-                <img
-                    class="illustration illustration--centered cup-of-tea"
-                    alt=""
-                    src="illustrations/cup-of-tea.svg"
-                />
-            </section>
-        </main>
+                        <div>
+                            {% for year, articles in ARTICLES_BY_YEAR %}
+                                <details class="accordion">
+                                    <summary class="accordion__title">
+                                        Publications de {{ year }}
+                                    </summary>
 
-        <footer class="layout__footer">
-            <p>
-                <a class="call-to-action" href="https://app.flus.fr/registration">
-                    S’inscrire sur Flus
-                </a>
-            </p>
+                                    <div class="accordion__body">
+                                        <ul class="grid list--nostyle">
+                                            {% for article in articles %}
+                                                {% set is_featured = 'ARTICLE_TAGS' in article.meta and 'featured' in article.meta['ARTICLE_TAGS'] %}
+                                                <li class="card {% if is_featured %}card--featured{% endif %} flow flow--large">
+                                                    <div class="card__body flow">
+                                                        <h3 class="text--bold text--gable">
+                                                            {{ article.title() }}
+                                                        </h3>
 
-            <p class="paragraph--center">
-                <a href="{{ SITE_URL_FLUS }}contact">Contact</a>&nbsp;·&nbsp;<a href="{{ SITE_URL_FLUS }}securite">Sécurité</a>&nbsp;·&nbsp;<a href="{{ SITE_URL_FLUS }}credits">Crédits</a>&nbsp;·&nbsp;<a href="{{ SITE_URL_FLUS }}mentions-legales">Mentions légales</a>
-            </p>
+                                                        <p class="text--bold text--gable">
+                                                            {{ article.date().strftime("%d %b %Y") }}
+                                                        </p>
 
-            <p class="paragraph--center">
-                <a href="https://rss.flus.fr">Accéder à FreshRSS</a>&nbsp;·&nbsp;<a href="https://status.flus.fr/">Statut des services</a>
-            </p>
+                                                        {% if is_featured %}
+                                                            <p class="sr-only">
+                                                                Article mis en avant
+                                                            </p>
+                                                        {% endif %}
 
-            <p class="copyright">
-                Licence libre <a href="https://github.com/flusio/flus.fr/blob/main/LICENSE.txt">AGPL-3.0</a> (<a href="https://github.com/flusio">code source</a>)
-            </p>
-        </footer>
+                                                        <p>
+                                                            {{ article.meta['ARTICLE_DESCRIPTION'] }}
+                                                        </p>
+                                                    </div>
+
+                                                    <a class="button button--primary" href="{{ article.url() }}">
+                                                        <svg class="icon icon--arrow-left rotate180" aria-hidden="true" width="36" height="36">
+                                                            <use xlink:href="{{ SITE_URL_FLUS }}static/icons/icons.svg#arrow-left"/>
+                                                        </svg>
+
+                                                        Lire l’article
+
+                                                        <span class="sr-only">
+                                                            «&nbsp;{{ article.title() }}&nbsp;»
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                </details>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <footer class="layout__footer" role="contentinfo">
+                <div class="wrapper wrapper--larger wrapper--center flow flow--large">
+                    <div class="cols cols--center cols--gap-large">
+                        <a href="{{ SITE_URL_FLUS }}">
+                            <img
+                                class="footer__logo"
+                                alt="Flus"
+                                src="{{ SITE_URL }}logo.svg"
+                            />
+                        </a>
+
+                        <ul class="list--nostyle list--inline col--extend cols cols--center cols--hcenter cols--gap">
+                            <li>
+                                <a class="footer__link" href="{{ SITE_URL_FLUS }}fonctionnalites">
+                                    Fonctionnalités
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="footer__link" href="{{ SITE_URL_FLUS }}tarifs">
+                                    Tarifs
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="footer__link" href="{{ SITE_URL }}index.html">
+                                    Blog
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="footer__link" href="{{ SITE_URL_FLUS }}contact">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+
+                        <p>
+                            <a class="button button--primary" href="https://app.flus.fr/registration">
+                                <svg class="icon icon--arrow-left rotate180" aria-hidden="true" width="36" height="36">
+                                    <use xlink:href="{{ SITE_URL_FLUS }}static/icons/icons.svg#arrow-left"/>
+                                </svg>
+                                S’inscrire sur Flus
+                            </a>
+                        </p>
+                    </div>
+
+                    <hr class="footer__separator">
+
+                    <ul class="list--nostyle list--inline text--small text--center">
+                        <li>
+                            <a class="footer__link" href="{{ SITE_URL_FLUS }}mentions-legales">
+                                Mentions légales
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="footer__link" href="{{ SITE_URL_FLUS }}securite">
+                                Sécurité
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="footer__link" href="{{ SITE_URL_FLUS }}credits">
+                                Crédits
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="footer__link" href="https://rss.flus.fr">
+                                Accéder à FreshRSS
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="footer__link" href="https://status.flus.fr">
+                                Statut des services
+                            </a>
+                        </li>
+                    </ul>
+
+                    <p class="footer__license text--small text--center">
+                        Licence libre
+
+                        <a href="https://github.com/flusio/Flus/blob/main/LICENSE.txt">
+                            AGPL-3.0
+                        </a>
+                    </p>
+                </div>
+            </footer>
+        </div>
     </body>
 </html>

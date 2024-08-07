@@ -6,6 +6,7 @@ include .env
 .PHONY: boop
 boop: ## Build the website with Boop! generator
 	boop.py --development
+	rsync -P -rvzc --delete ./_site/ $(LOCAL_DEST)
 
 .PHONY: clean
 clean: ## Clean site files

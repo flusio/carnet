@@ -1,13 +1,13 @@
 url: "https://flus.fr/carnet/"
 url_flus: "https://flus.fr/"
-title: "Carnet de Flus"
-subtitle: "blog d’un média social de veille"
+title: "Le carnet de Flus"
+subtitle: "Un blog pour raconter et partager la conception d’un service à taille humaine."
 author: "Marien"
 timezone: "Europe/Paris"
 blog_slug: "index"
 websub_hub: "https://websub.flus.io/"
 uuid: "d836fc75-3412-5caf-91e2-2fad31343882"
-twitter: "@flus_fr"
 
 development:
-    url: "filesystem"
+    url: "http://localhost:8000/carnet/"
+    url_flus: "http://localhost:8000/"
