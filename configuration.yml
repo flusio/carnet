@@ -1,5 +1,6 @@
 url: "https://flus.fr/carnet/"
 url_flus: "https://flus.fr/"
+domain_flus: "flus.fr"
 title: "Le carnet de Flus"
 subtitle: "Un blog pour raconter et partager la conception d’un service à taille humaine."
 author: "Marien"
