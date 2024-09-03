@@ -101,7 +101,7 @@ Il y a des choses qui ne changent pas et qui sont profondément ancrées dans l�
 Service professionnel ne signifie pas service déshumanisé.
 Logiciel et prix libres sont des marqueurs de cette position.
 
-En proposant un service payant, j’assure ainsi le financement pérenne du service sur la base d’un modèle économique vertueux : je n’ai de compte à rendre qu’à mes utilisateurices (au lieu de publicitaires ou de financeurs externes).
+En proposant un service payant, j’assure ainsi le financement pérenne du service sur la base d’un modèle économique vertueux : je n’ai de compte à rendre qu’à mes utilisateurices (au lieu de publicitaires ou de financements externes).
 En rendant le prix libre, le soutien au projet devient accessible à n’importe quelle bourse.
 
 Si le prix est libre, le logiciel sous-jacent l’est aussi.
