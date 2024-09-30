@@ -1,6 +1,6 @@
 ---
 title: Quoi de neuf en septembre ?
-date: 2024-09-29 12:00
+date: 2024-09-30 12:00
 description: Sortie des versions 1.0 et 1.0.1, des articles, des évènements, et de la vie interne.
 ---
 
