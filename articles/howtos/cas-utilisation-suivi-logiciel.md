@@ -111,7 +111,7 @@ Si vous bossez en informatique, assurer votre veille est important pour rester �
 Bonne nouvelle : ce n’est pas une démarche compliquée à entreprendre, à condition de savoir par où commencer.
 **Le plus simple est de partir d’un de vos projets et d’identifier sur quelles briques logicielles il repose.**
 
-Cet article est déjà suffisamment long, mais je vous présenterai dès demain une étude de cas concernant l’un de mes (autres) projets.
+Cet article est déjà suffisamment long, mais je vous présente également dans l’article suivant une étude de cas pour rendre le sujet plus concret : « [Étude de cas : la veille des dépendances du projet Bileto](etude-de-cas-dependances-bileto.html) ».
 
 En attendant, je vous invite à d’ors-et-déjà entreprendre la mise en place d’une démarche de veille si ce n’est pas encore le cas.
 Pour cela, Flus vous accueille les bras ouverts !
