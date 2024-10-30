@@ -21,7 +21,7 @@ publish: clean  ## Publish the website online (rsync)
 
 .PHONY: open
 open: boop  ## Open the built site in a web browser
-	xdg-open _site/index.html
+	xdg-open http://localhost:8000/carnet/
 
 .PHONY: tree
 tree:  ## Display the structure of the website
