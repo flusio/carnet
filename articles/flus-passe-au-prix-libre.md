@@ -6,8 +6,8 @@ tags: featured
 ---
 
 Bien que développé sur la base d’un logiciel libre, Flus est un service de veille en ligne payant.
-Depuis le début, le tarif est simple : 3 € par mois, ou 30 € par an.
-À cela s’ajoute une cagnotte qui peut être alimentée par les personnes le souhaitant, et utilisée par celles qui ne veulent ou ne peuvent pas payer.
+Au démarrage, le tarif était simple : 3 € par mois, ou 30 € par an.
+À cela s’ajoutait une cagnotte qui pouvait être alimentée par les personnes le souhaitant, et utilisée par celles qui ne voulaient ou ne pouvaient pas payer.
 
 **Aujourd’hui, toutefois, cela évolue : Flus passe au prix libre !**
 
@@ -19,8 +19,8 @@ Cela vous permet de définir le prix qui vous paraît le plus juste au regard de
 Vous vous dites peut-être qu’il n’est pas évident de définir _vous-même_ un prix correct ?
 Pas d’inquiétude, je vous propose trois tarifs « par défaut » qui vous permettront de le faire sereinement.
 
-<div class="screenshot">
-    <img class="illustration screenshot__image" src="images/flus-prix-libre.webp" alt="Une capture d’écran du formulaire de renouvellement qui montre trois tarifs (détaillés ci-dessous) et un champ permettant de définir le montant soi-même.">
+<div class="panel panel--rounded panel--grey">
+    <img class="illustration" src="images/flus-prix-libre.webp" alt="Une capture d’écran du formulaire de renouvellement qui montre trois tarifs (détaillés ci-dessous) et un champ permettant de définir le montant soi-même.">
 </div>
 
 **Le tarif « solidaire » à 15 € par an** est destiné à celles et ceux qui ne sont pas prêts à dépenser plus, mais qui souhaitent tout de même soutenir le projet.
