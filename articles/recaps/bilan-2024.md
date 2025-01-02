@@ -1,6 +1,7 @@
 ---
 title: Bilan 2024 — 5 ans de Flus
 date: 2024-12-20 12:00
+update: 2025-01-02 10:45
 description: La fin de l’année et les 5 ans de Flus ? L’occasion d’un exercice réflexif sur mon activité annuelle.
 ---
 
@@ -9,7 +10,8 @@ C’est l’occasion d’un exercice réflexif sur mon activité, permettant de 
 
 Habituellement, je publie ces bilans plutôt en janvier une fois que tous les chiffres sont arrêtés.
 Je n’en fais toutefois pas une règle stricte, et les chiffres ne sont pas les seules informations intéressantes de cet article !
-Gardez seulement en tête que la partie financière risque encore d’évoluer un peu, mais que je remettrai l’article à jour en janvier.
+<del>Gardez seulement en tête que la partie financière risque encore d’évoluer un peu, mais que je remettrai l’article à jour en janvier.</del>
+_Changement du 2 janvier 2024 : j’ai mis à jour l’article avec les bons chiffres._
 
 **Cette année, Flus souffle sa cinquième bougie.**
 J’en profite donc pour faire un bilan très personnel de ces 5 premières années en fin d’article.
@@ -75,18 +77,16 @@ Enfin, ce sont les tags qui sont apparus avec [la version 1.1 de Flus](flus-un-p
 
 ### Chiffre d’affaires
 
-À l’heure où j’écris ces lignes, le chiffre d’affaires (<abbr>CA</abbr>) s’élève à un peu plus de 3 200 € pour un total de 103 abonnements pris.
-L’année n’étant pas encore terminée, j’estime qu’il pourrait encore progresser d’environ 200 €.
+Le chiffre d’affaires (<abbr>CA</abbr>) s’élève à 3 486 € pour un total de 109 abonnements pris.
 C’est à peine plus que celui des deux années précédentes, mais cette observation nécessite d’être analysée de plus près.
 
 Tout d’abord, je travaille à mi-temps sur Flus depuis 2022, soit une semaine sur deux.
 Ce mi-temps m’assure un revenu stable mensuel, mais m’empêche de me consacrer pleinement à Flus.
-À cause de cela, ainsi que du travail interne que j’ai effectué cette année, je n’ai pu communiquer que sur peu d’améliorations du service : seulement 5 articles dont un seul concernait des améliorations.
+À cause de cela, ainsi que du travail interne que j’ai effectué cette année, je n’ai pu communiquer que sur peu d’améliorations du service : seulement 5 articles jusqu’en août, dont un seul concernait des améliorations.
 Le début de l’année 2024 a donc été assez similaire aux deux années précédentes en termes de <abbr>CA</abbr>.
 
 La tendance s’est néanmoins inversée en fin d’année avec la sortie de Flus 1.0.
-**Le <abbr>CA</abbr> a ainsi sensiblement progressé sur les quatre derniers mois par rapport à 2023.**
-La hausse devrait se situer entre 20 et 30 % : preuve en est qu’il y a eu un effet « communication ».
+**Le <abbr>CA</abbr> a ainsi progressé de 40 % sur les quatre derniers mois par rapport à 2023, passant de 987 € à 1386 €.**
 
 ### Dépenses et résultat
 
@@ -96,7 +96,7 @@ Le gros de mon budget est évidemment passé dans les frais d’avocats pour ré
 Mais même en excluant cela, mes dépenses ont augmenté de près de 15 % au total.
 Les causes sont assez variées entre des dépenses en fournitures plus importantes et une légère hausse des frais liés aux serveurs et aux noms de domaine.
 
-Au final, l’année devrait se terminer par **un déficit aux alentours de 1 300 €.**
+Au final, l’année se termine avec **un déficit d’environ 1 250 €.**
 Ce déficit est à relativiser, car je possède une trésorerie confortable, et que les abonnements couvrent toujours largement mes charges fixes.
 C’est le principal aujourd’hui pour moi : le service reste tout à fait soutenable et ne me met pas en danger.
 
@@ -105,9 +105,9 @@ C’est le principal aujourd’hui pour moi : le service reste tout à fait so
 Depuis l’an dernier, Flus est à prix libre : ses utilisateurices peuvent choisir le prix de leur abonnement entre 0 et 120 €.
 Le résultat de ce modèle économique est très positif selon moi.
 
-Tout d’abord, **le montant moyen de l’abonnement s’élève à 31,36 € pour 103 abonnements pris.**
+Tout d’abord, **le montant moyen de l’abonnement s’élève à 31,98 € pour 109 abonnements pris.**
 C’est légèrement plus que le tarif par défaut qui est de 30 €.
-On peut toutefois noter de fortes disparités entre les mois : la fourchette s’étalant de 17,38 € (décembre) à 48,58 € (mars).
+On peut toutefois noter de fortes disparités entre les mois : la fourchette s’étalant de 22,14 € (mai) à 48,58 € (mars).
 
 Si je suis forcément content de voir des renouvellements à plus de 30 €, je le suis tout autant quand je vois des renouvellements à 5, 10 ou 15 €.
 Cela signifie que le prix libre rend Flus accessible à des personnes qui ne pourraient ou ne voudraient pas mettre plus ; c’est très bien.
@@ -116,8 +116,8 @@ Toutefois, il faut relativiser ces chiffres car j’en ai volontairement exclu l
 En effet, les raisons d’un tel renouvellement peuvent être très variées : manque de moyens, souhait de prolonger la période d’essai, pas l’habitude de payer pour des services en ligne, refus de renseigner les informations de paiement auprès de Stripe, etc.
 Je pense que compter ces renouvellements au même titre que les autres fausseraient l’analyse de l’ensemble.
 
-Cela étant dit, **il y a eu 37 renouvellements gratuits cette année.**
-En les comptant, le montant moyen de l’abonnement s’élèverait ainsi à 23 €, ce que je trouve encore très correct.
+Cela étant dit, **il y a eu 39 renouvellements gratuits cette année.**
+En les comptant, le montant moyen de l’abonnement s’élèverait ainsi à 24 €, ce que je trouve encore très correct.
 
 ## Pistes pour 2025
 
