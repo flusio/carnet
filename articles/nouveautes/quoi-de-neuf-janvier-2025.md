@@ -61,7 +61,7 @@ Vous pouvez également installer l’extension navigateur pour ajouter une page 
 ## Un très bon démarrage
 
 Ce début d’année a été très encourageant.
-En effet, il y a eu 17 renouvellements d’abonnements pour un chiffre d’affaires de 671 € (objectif mensuel quasiment atteint !)
+En effet, il y a eu 17 renouvellements d’abonnements pour un chiffre d’affaires de 671 € (objectif mensuel atteint !)
 Par rapport à janvier 2024, c’est une hausse de 50 %.
 
 Il y a par ailleurs eu de nombreux renouvellements au tarif soutien (à plus de 60 € !), **ce qui est très encourageant vis-à-vis du modèle du [prix libre](https://flus.fr/tarifs) que je propose.**
