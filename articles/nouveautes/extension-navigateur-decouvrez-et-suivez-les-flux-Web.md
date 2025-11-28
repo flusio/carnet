@@ -1,6 +1,7 @@
 ---
 title: Extension navigateur : découvrez et suivez les flux Web des sites que vous visitez
 date: 2025-11-27 08:30
+update: 2025-11-28 10:00
 description: L’extension navigateur de Flus permet désormais de suivre facilement les flux Web des sites que vous visitez.
 ---
 
@@ -64,5 +65,3 @@ L’extension peut être téléchargée en suivant les liens suivants :
         Télécharger l’extension Chrome
     </a></li>
 </ul>
-
-_Attention, la mise à jour n’est malheureusement pas encore disponible du côté de Chrome ! (en attente de validation)_
