@@ -139,7 +139,7 @@ Le travail réalisé sur le site en 2024, ainsi que la communication accrue en 2
 J’aimerais dire que je souhaite maintenir cette dynamique en 2026, mais les choses sont plus compliquées.
 
 Premièrement sur la période septembre — décembre, la dynamique s’est déjà bien essoufflée.
-Ensuite, le travail qui sera réalisé en 2025 — voir [la feuille de route](feuille-de-route-2026.html) — a été pensé comme une phase de préparation technique pour des fonctionnalités beaucoup plus intéressantes (qui ne devraient donc pas arriver avant 2027 !)
+Ensuite, le travail qui sera réalisé en 2026 — voir [la feuille de route](feuille-de-route-2026.html) — a été pensé comme une phase de préparation technique pour des fonctionnalités beaucoup plus intéressantes (qui ne devraient donc pas arriver avant 2027 !)
 Enfin, parce que travailler à mi-temps reste contraignant : de manière simplifiée, je dispose de 6 jours de développement par mois, 2 jours de communication et 2 jours d’administration système et de gestion de projet.
 **Ça reste peu pour faire décoller et connaitre le projet.**
 
